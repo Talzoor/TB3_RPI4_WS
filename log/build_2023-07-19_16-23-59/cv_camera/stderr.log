@@ -1,0 +1,64 @@
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:[m[K In member function ‘[01m[Kbool cv_camera::Capture::capture()[m[K’:
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:140:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  140 |     else if ([01;35m[Kinfo_.height != bridge_.image.rows[m[K || info_.width != bridge_.image.cols)
+      |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:140:64:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  140 |     else if (info_.height != bridge_.image.rows || [01;35m[Kinfo_.width != bridge_.image.cols[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:9[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:[m[K In member function ‘[01m[Kvoid cv_camera::Driver::setup()[m[K’:
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:36:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   36 |   RCLCPP_INFO(private_node_->get_logger(), [01;35m[K"camera_node_=%s"[m[K, camera_node_);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:36:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   36 |   RCLCPP_INFO(private_node_->get_logger(), "camera_node_=[01;36m[K%s[m[K", camera_node_);
+      |                                                          [01;36m[K~^[m[K
+      |                                                           [01;36m[K|[m[K
+      |                                                           [01;36m[Kchar*[m[K
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/cv_camera_node.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+                 from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/cv_camera_node.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+   41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+      |                                                                                             [01;36m[K^[m[K

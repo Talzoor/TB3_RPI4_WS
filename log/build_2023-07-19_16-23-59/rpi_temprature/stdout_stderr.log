@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/rpi_temprature/rpi_temprature.egg-info
+writing ../../build/rpi_temprature/rpi_temprature.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_temprature/rpi_temprature.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_temprature/rpi_temprature.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_temprature/rpi_temprature.egg-info/requires.txt
+writing top-level names to ../../build/rpi_temprature/rpi_temprature.egg-info/top_level.txt
+writing manifest file '../../build/rpi_temprature/rpi_temprature.egg-info/SOURCES.txt'
+reading manifest file '../../build/rpi_temprature/rpi_temprature.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_temprature/rpi_temprature.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build
+creating /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib
+creating /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib/rpi_temprature
+copying rpi_temprature/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib/rpi_temprature
+copying rpi_temprature/rpi_get_temprature.py -> /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib/rpi_temprature
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature
+copying /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib/rpi_temprature/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature
+copying /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build/lib/rpi_temprature/rpi_get_temprature.py -> /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature
+byte-compiling /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature/rpi_get_temprature.py to rpi_get_temprature.cpython-310.pyc
+running install_data
+creating /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/ament_index
+creating /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/ament_index/resource_index
+creating /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/ament_index/resource_index/packages
+copying resource/rpi_temprature -> /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/ament_index/resource_index/packages
+copying package.xml -> /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature
+running install_egg_info
+Copying ../../build/rpi_temprature/rpi_temprature.egg-info to /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rpi_get_temprature script to /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/rpi_temprature
+writing list of installed files to '/home/t-pi/TB3_RPI4_WS/build/rpi_temprature/install.log'

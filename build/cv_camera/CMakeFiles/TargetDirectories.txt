@@ -1,0 +1,11 @@
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/uninstall.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/cv_camera_uninstall.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/cv_camera.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/cv_camera_node.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/test.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/edit_cache.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/rebuild_cache.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/list_install_components.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/install.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/install/local.dir
+/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/install/strip.dir

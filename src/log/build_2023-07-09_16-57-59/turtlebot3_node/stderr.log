@@ -1,0 +1,16 @@
+[01m[K/home/t-pi/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:[m[K In function ‘[01m[Kfloat get_rpi_temp()[m[K’:
+[01m[K/home/t-pi/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:32:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 3 has type ‘[01m[Kfloat*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   32 |   fscanf (temperatureFile, "[01;35m[K%lf[m[K", [32m[K&T[m[K);
+      |                             [01;35m[K~~^[m[K   [32m[K~~[m[K
+      |                               [01;35m[K|[m[K   [32m[K|[m[K
+      |                               [01;35m[K|[m[K   [32m[Kfloat*[m[K
+      |                               [01;35m[Kdouble*[m[K
+      |                             [32m[K%f[m[K
+[01m[K/home/t-pi/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:[m[K In member function ‘[01m[Kvirtual void robotis::turtlebot3::sensors::SensorState::publish(const rclcpp::Time&, std::shared_ptr<robotis::turtlebot3::DynamixelSDKWrapper>&)[m[K’:
+[01m[K/home/t-pi/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:128:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct turtlebot3_msgs::msg::SensorState_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krpi_temp[m[K’
+  128 |   msg->[01;31m[Krpi_temp[m[K = get_rpi_temp(); // TZ added 09/07/2023
+      |        [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:216: CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtlebot3_node_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
