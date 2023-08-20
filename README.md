@@ -35,7 +35,7 @@ or copy as one line:
 cd ~/TB3_RPI4_WS; git add *; git commit -m "commit message"; git push
 ```
 
-## check turtlebot / pc, ros connection
+## check turtlebot <--> pc, ros connection
 
 ### TB3
 
