@@ -1,0 +1,49 @@
+[0.209s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport -- -j4 -l4
+[0.565s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.803s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[2.094s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.114s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.157s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.744s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.760s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.149s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.977s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.511s] -- Configuring done
+[6.664s] -- Generating done
+[6.682s] -- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport
+[6.853s] [35m[1mConsolidate compiler generated dependencies of target compressed_depth_image_transport[0m
+[7.002s] [ 20%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/codec.cpp.o[0m
+[23.512s] [ 40%] [32m[1mLinking CXX shared library libcompressed_depth_image_transport.so[0m
+[32.140s] [100%] Built target compressed_depth_image_transport
+[32.288s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport -- -j4 -l4
+[33.149s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport
+[33.230s] -- Install configuration: ""
+[33.232s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/libcompressed_depth_image_transport.so
+[33.345s] -- Set runtime path of "/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/libcompressed_depth_image_transport.so" to ""
+[33.346s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include
+[33.347s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport
+[33.348s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compression_common.h
+[33.349s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/codec.h
+[33.350s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_subscriber.h
+[33.350s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h
+[33.351s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/compressed_depth_plugins.xml
+[33.352s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/package_run_dependencies/compressed_depth_image_transport
+[33.359s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/parent_prefix_path/compressed_depth_image_transport
+[33.360s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/ament_prefix_path.sh
+[33.361s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/ament_prefix_path.dsv
+[33.362s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/path.sh
+[33.363s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/path.dsv
+[33.364s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.bash
+[33.367s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.sh
+[33.368s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.zsh
+[33.371s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.dsv
+[33.373s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv
+[33.378s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/packages/compressed_depth_image_transport
+[33.379s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/compressed_depth_image_transport
+[33.410s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig.cmake
+[33.410s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig-version.cmake
+[33.411s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.xml
+[33.412s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport

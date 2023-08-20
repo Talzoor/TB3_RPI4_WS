@@ -1,0 +1,30 @@
+[0.091s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target cv_camera[0m
+[0.800s] [ 60%] Built target cv_camera
+[0.951s] [35m[1mConsolidate compiler generated dependencies of target cv_camera_node[0m
+[1.112s] [100%] Built target cv_camera_node
+[1.191s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[1.987s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera
+[2.059s] -- Install configuration: ""
+[2.073s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/cv_camera/libcv_camera.a
+[2.075s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/cv_camera/cv_camera_node
+[2.077s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include/
+[2.078s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//driver.h
+[2.078s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//exception.h
+[2.079s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//capture.h
+[2.079s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/package_run_dependencies/cv_camera
+[2.080s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/parent_prefix_path/cv_camera
+[2.081s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/ament_prefix_path.sh
+[2.093s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/ament_prefix_path.dsv
+[2.093s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/path.sh
+[2.094s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/path.dsv
+[2.095s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.bash
+[2.095s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.sh
+[2.096s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.zsh
+[2.097s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.dsv
+[2.098s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.dsv
+[2.100s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/packages/cv_camera
+[2.101s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/cmake/cv_cameraConfig.cmake
+[2.102s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/cmake/cv_cameraConfig-version.cmake
+[2.102s] -- Up-to-date: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.xml
+[2.135s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera

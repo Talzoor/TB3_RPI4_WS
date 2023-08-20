@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/rpi_temprature/rpi_temprature.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_temprature/rpi_temprature.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_temprature/rpi_temprature.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_temprature/rpi_temprature.egg-info/requires.txt
+writing top-level names to ../../build/rpi_temprature/rpi_temprature.egg-info/top_level.txt
+reading manifest file '../../build/rpi_temprature/rpi_temprature.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_temprature/rpi_temprature.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rpi_temprature/rpi_temprature.egg-info to /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages/rpi_temprature-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rpi_get_temprature script to /home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/rpi_temprature
+writing list of installed files to '/home/t-pi/TB3_RPI4_WS/build/rpi_temprature/install.log'
