@@ -57,7 +57,7 @@ first give Ubuntu permission to open _/dev/video0_ port
 sudo chmod 777 /dev/video0
 ```
 
-than run streaming service
+and run streaming service
 ```bash
 ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/.ros/camera_info/params.yaml
 ```
