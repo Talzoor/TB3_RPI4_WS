@@ -52,8 +52,12 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ## run image stream
 
 ### TB3
+give Ubuntu permission to open 'video0'
 ```bash
-ros2 run usb_cam usb_cam_node_exe --ros-args --aprams-file ~/.ros/camera_info/params.yaml
+sudo chmod 777 /dev/video0
+```
+```bash
+ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/.ros/camera_info/params.yaml
 ```
 
 ### PC
