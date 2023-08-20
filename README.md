@@ -4,6 +4,14 @@ RPI4 workspace, ros2 humble
 
 located at ~/TB3_RPI4_WS/
 
+## ssh connection
+
+connect to Wifi: TurtleBotWifi
+
+```bash
+ssh t-pi@192.168.0.2
+```
+
 ## rebuild ros workspace
 
 ```bash
@@ -26,3 +34,10 @@ or copy as one line:
 ```bash
 cd ~/TB3_RPI4_WS; git add *; git commit -m "commit message"; git push
 ```
+
+## check turtlebot / pc, ros connection
+
+### TB3
+
+
+### PC
