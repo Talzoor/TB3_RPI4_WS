@@ -6,7 +6,7 @@ located at ~/TB3_RPI4_WS/
 
 ## ssh connection
 
-connect to Wifi: TurtleBotWifi
+connect to Wifi: **TurtleBotWifi**
 
 ```bash
 ssh t-pi@192.168.0.2
