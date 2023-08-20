@@ -10,7 +10,6 @@ to rebuild it:
 github push:
 
 	cd ~/TB3_RPI4_WS
-
 	git add *
 	git commit -m "commit message"
 	git push origin main
