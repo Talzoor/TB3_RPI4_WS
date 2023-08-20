@@ -1,0 +1,4 @@
+[0.178s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport -- -j4 -l4
+[0.929s] [ 25%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o[0m
+[0.938s] [ 50%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o[0m
+[0.949s] [ 75%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o[0m

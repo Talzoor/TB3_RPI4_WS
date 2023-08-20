@@ -1,0 +1,31 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libcompressed_depth_image_transport.so[0m
+[100%] Built target compressed_depth_image_transport
+-- Install configuration: ""
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/libcompressed_depth_image_transport.so
+-- Set runtime path of "/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/libcompressed_depth_image_transport.so" to ""
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compression_common.h
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/codec.h
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_subscriber.h
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/include/compressed_depth_image_transport/compressed_depth_publisher.h
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/compressed_depth_plugins.xml
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/package_run_dependencies/compressed_depth_image_transport
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/parent_prefix_path/compressed_depth_image_transport
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/ament_prefix_path.sh
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/ament_prefix_path.dsv
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/path.sh
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/environment/path.dsv
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.bash
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.sh
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.zsh
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/local_setup.dsv
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/packages/compressed_depth_image_transport
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/compressed_depth_image_transport
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig.cmake
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig-version.cmake
+-- Installing: /home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.xml

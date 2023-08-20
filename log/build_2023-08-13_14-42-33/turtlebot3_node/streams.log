@@ -1,0 +1,51 @@
+[0.053s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
+[0.341s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[19.046s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[35.155s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[38.438s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[44.489s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[46.542s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[47.621s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[99.321s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[101.420s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[134.534s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[147.012s] [01m[K/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:[m[K In function ‘[01m[Kfloat get_rpi_temp()[m[K’:
+[147.013s] [01m[K/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node/src/sensors/sensor_state.cpp:32:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 3 has type ‘[01m[Kfloat*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[147.013s]    32 |   fscanf (temperatureFile, "[01;35m[K%lf[m[K", [32m[K&T[m[K);
+[147.014s]       |                             [01;35m[K~~^[m[K   [32m[K~~[m[K
+[147.015s]       |                               [01;35m[K|[m[K   [32m[K|[m[K
+[147.015s]       |                               [01;35m[K|[m[K   [32m[Kfloat*[m[K
+[147.016s]       |                               [01;35m[Kdouble*[m[K
+[147.016s]       |                             [32m[K%f[m[K
+[156.076s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[176.864s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[185.161s] [ 85%] Built target turtlebot3_node_lib
+[186.729s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[204.857s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[213.979s] [100%] Built target turtlebot3_ros
+[214.026s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
+[214.334s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node
+[214.372s] -- Install configuration: ""
+[214.372s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/param
+[214.374s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[214.377s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[214.379s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[214.382s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[214.501s] -- Set runtime path of "/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[214.502s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[214.507s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[214.510s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[214.512s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[214.514s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[214.516s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[214.518s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[214.520s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[214.523s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[214.525s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[214.527s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[214.530s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[214.532s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[214.535s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[214.537s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[214.539s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[214.558s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node

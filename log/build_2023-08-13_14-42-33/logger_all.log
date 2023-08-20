@@ -1,0 +1,1015 @@
+[3.006s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--parallel-workers', '2']
+[3.007s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb41ef610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4aae500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4aae500>>)
+[3.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/t-pi/TB3_RPI4_WS'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extension 'ignore'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extension 'ignore_ament_install'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extensions ['colcon_pkg']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extension 'colcon_pkg'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extensions ['colcon_meta']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extension 'colcon_meta'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extensions ['ros']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_camera) by extension 'ros'
+[3.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv_camera' with type 'ros.ament_cmake' and name 'cv_camera'
+[3.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore_ament_install'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_pkg']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_pkg'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_meta']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_meta'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ros']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ros'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['cmake', 'python']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'cmake'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['python_setup_py']
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python_setup_py'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore_ament_install'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_pkg']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_pkg'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_meta']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_meta'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ros']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ros'
+[3.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_depth_image_transport' with type 'ros.ament_cmake' and name 'compressed_depth_image_transport'
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore'
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore_ament_install'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_pkg']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_pkg'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_meta']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_meta'
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ros']
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ros'
+[3.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_image_transport' with type 'ros.ament_cmake' and name 'compressed_image_transport'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore'
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore_ament_install'
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_pkg']
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_pkg'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_meta']
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_meta'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ros']
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ros'
+[3.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/image_transport_plugins' with type 'ros.ament_cmake' and name 'image_transport_plugins'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore_ament_install'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_pkg']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_pkg'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_meta']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_meta'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ros']
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ros'
+[3.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/theora_image_transport' with type 'ros.ament_cmake' and name 'theora_image_transport'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore_ament_install'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_pkg']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_pkg'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_meta']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_meta'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ros']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ros'
+[3.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extensions ['ignore', 'ignore_ament_install']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extension 'ignore'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extension 'ignore_ament_install'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extensions ['colcon_pkg']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extension 'colcon_pkg'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extensions ['colcon_meta']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extension 'colcon_meta'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extensions ['ros']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_temprature) by extension 'ros'
+[3.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rpi_temprature' with type 'ros.ament_python' and name 'rpi_temprature'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[3.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[3.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[3.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[3.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[3.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[3.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ros'
+[3.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ros'
+[3.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ros'
+[3.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[3.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[3.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[3.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[3.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.793s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/t-pi/TB3_RPI4_WS/install
+[3.812s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[3.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.299s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport_plugins' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding image_transport_plugins
+
+This may be promoted to an error in a future release of colcon-override-check.
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_args' from command line to 'None'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target' from command line to 'None'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[4.306s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[4.307s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[4.307s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.307s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_depth_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_depth_image_transport', 'symlink_install': False, 'test_result_base': None}
+[4.311s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_args' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.313s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_image_transport', 'symlink_install': False, 'test_result_base': None}
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_args' from command line to 'None'
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_target' from command line to 'None'
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_clean_first' from command line to 'False'
+[4.317s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'cmake_force_configure' from command line to 'False'
+[4.318s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'ament_cmake_args' from command line to 'None'
+[4.318s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[4.318s] Level 5:colcon.colcon_core.verb:set package 'cv_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.318s] DEBUG:colcon.colcon_core.verb:Building package 'cv_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/cv_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/cv_camera', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/cv_camera', 'symlink_install': False, 'test_result_base': None}
+[4.322s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_args' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_first' from command line to 'False'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_force_configure' from command line to 'False'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'ament_cmake_args' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.324s] DEBUG:colcon.colcon_core.verb:Building package 'ld08_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/ld08_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/ld08_driver', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/ld08_driver', 'symlink_install': False, 'test_result_base': None}
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_args' from command line to 'None'
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_target' from command line to 'None'
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_clean_cache' from command line to 'False'
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_clean_first' from command line to 'False'
+[4.329s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'cmake_force_configure' from command line to 'False'
+[4.329s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'ament_cmake_args' from command line to 'None'
+[4.329s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'catkin_cmake_args' from command line to 'None'
+[4.329s] Level 5:colcon.colcon_core.verb:set package 'rpi_temprature' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.329s] DEBUG:colcon.colcon_core.verb:Building package 'rpi_temprature' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/rpi_temprature', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/rpi_temprature', 'symlink_install': False, 'test_result_base': None}
+[4.333s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_args' from command line to 'None'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target' from command line to 'None'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[4.334s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.335s] DEBUG:colcon.colcon_core.verb:Building package 'theora_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport', 'symlink_install': False, 'test_result_base': None}
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.339s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.340s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[4.344s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to 'None'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[4.345s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.346s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example', 'symlink_install': False, 'test_result_base': None}
+[4.350s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to 'None'
+[4.350s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[4.350s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.350s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[4.350s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[4.351s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[4.351s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[4.351s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[4.351s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.351s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node', 'symlink_install': False, 'test_result_base': None}
+[4.355s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[4.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.357s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop', 'symlink_install': False, 'test_result_base': None}
+[4.362s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_args' from command line to 'None'
+[4.362s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target' from command line to 'None'
+[4.362s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.362s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[4.363s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[4.363s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[4.363s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[4.363s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[4.363s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.363s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/image_transport_plugins', 'symlink_install': False, 'test_result_base': None}
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.368s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.369s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.369s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_bringup', 'symlink_install': False, 'test_result_base': None}
+[4.373s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to 'None'
+[4.373s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[4.373s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[4.374s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.374s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/turtlebot3', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3', 'symlink_install': False, 'test_result_base': None}
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[4.379s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[4.380s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[4.380s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.380s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-pi/TB3_RPI4_WS/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-pi/TB3_RPI4_WS/install/usb_cam', 'merge_install': False, 'path': '/home/t-pi/TB3_RPI4_WS/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[4.383s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.398s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_depth_image_transport' with build type 'ament_cmake'
+[4.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_depth_image_transport'
+[4.437s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_image_transport' with build type 'ament_cmake'
+[4.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_image_transport'
+[4.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport -- -j4 -l4
+[4.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport -- -j4 -l4
+[105.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport -- -j4 -l4
+[105.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport
+[105.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_depth_image_transport)
+[105.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport
+[105.730s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport' for CMake module files
+[105.734s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport' for CMake config files
+[105.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'cmake_prefix_path')
+[105.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.ps1'
+[105.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.dsv'
+[105.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.sh'
+[105.757s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib'
+[105.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'ld_library_path_lib')
+[105.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.ps1'
+[105.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.dsv'
+[105.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.sh'
+[105.769s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/bin'
+[105.770s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/pkgconfig/compressed_depth_image_transport.pc'
+[105.771s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/python3.10/site-packages'
+[105.772s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/bin'
+[105.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.ps1'
+[105.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv'
+[105.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.sh'
+[105.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.bash'
+[105.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.zsh'
+[105.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/colcon-core/packages/compressed_depth_image_transport)
+[105.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_depth_image_transport)
+[106.002s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport' for CMake module files
+[106.007s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport' for CMake config files
+[106.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'cmake_prefix_path')
+[106.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.ps1'
+[106.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.dsv'
+[106.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.sh'
+[106.022s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib'
+[106.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'ld_library_path_lib')
+[106.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.ps1'
+[106.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.dsv'
+[106.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.sh'
+[106.035s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/bin'
+[106.035s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/pkgconfig/compressed_depth_image_transport.pc'
+[106.037s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib/python3.10/site-packages'
+[106.038s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/bin'
+[106.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.ps1'
+[106.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv'
+[106.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.sh'
+[106.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.bash'
+[106.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.zsh'
+[106.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/share/colcon-core/packages/compressed_depth_image_transport)
+[106.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport' with build type 'ament_cmake'
+[106.059s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport'
+[106.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[106.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[106.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/theora_image_transport -- -j4 -l4
+[111.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport -- -j4 -l4
+[112.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport
+[112.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_image_transport)
+[112.234s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport' for CMake module files
+[112.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport
+[112.239s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport' for CMake config files
+[112.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'cmake_prefix_path')
+[112.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.ps1'
+[112.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.dsv'
+[112.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.sh'
+[112.257s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib'
+[112.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'ld_library_path_lib')
+[112.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.ps1'
+[112.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.dsv'
+[112.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.sh'
+[112.271s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/bin'
+[112.271s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib/pkgconfig/compressed_image_transport.pc'
+[112.272s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib/python3.10/site-packages'
+[112.273s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/bin'
+[112.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.ps1'
+[112.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.dsv'
+[112.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.sh'
+[112.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.bash'
+[112.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.zsh'
+[112.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/colcon-core/packages/compressed_image_transport)
+[112.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_image_transport)
+[112.468s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport' for CMake module files
+[112.472s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport' for CMake config files
+[112.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'cmake_prefix_path')
+[112.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.ps1'
+[112.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.dsv'
+[112.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.sh'
+[112.491s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib'
+[112.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'ld_library_path_lib')
+[112.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.ps1'
+[112.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.dsv'
+[112.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.sh'
+[112.506s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/bin'
+[112.506s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib/pkgconfig/compressed_image_transport.pc'
+[112.508s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib/python3.10/site-packages'
+[112.509s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/bin'
+[112.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.ps1'
+[112.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.dsv'
+[112.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.sh'
+[112.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.bash'
+[112.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/compressed_image_transport/package.zsh'
+[112.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/share/colcon-core/packages/compressed_image_transport)
+[112.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[112.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_description'
+[112.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[112.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[112.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_description -- -j4 -l4
+[112.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_description -- -j4 -l4
+[112.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_description
+[112.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[112.986s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description' for CMake module files
+[112.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_description
+[112.992s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description' for CMake config files
+[112.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[113.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[113.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[113.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[113.013s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/bin'
+[113.014s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[113.015s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/lib/python3.10/site-packages'
+[113.016s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/bin'
+[113.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[113.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[113.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[113.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[113.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[113.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[113.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[113.158s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description' for CMake module files
+[113.162s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description' for CMake config files
+[113.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[113.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[113.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[113.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[113.180s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/bin'
+[113.181s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[113.182s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/lib/python3.10/site-packages'
+[113.183s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/bin'
+[113.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[113.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[113.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[113.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[113.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[113.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[113.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[113.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node'
+[113.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[113.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[113.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
+[255.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/theora_image_transport -- -j4 -l4
+[256.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/theora_image_transport
+[256.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(theora_image_transport)
+[256.735s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport' for CMake module files
+[256.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/theora_image_transport
+[256.742s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport' for CMake config files
+[256.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'cmake_prefix_path')
+[256.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.ps1'
+[256.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.dsv'
+[256.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.sh'
+[256.764s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib'
+[256.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'ld_library_path_lib')
+[256.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.ps1'
+[256.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.dsv'
+[256.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.sh'
+[256.778s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/bin'
+[256.778s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib/pkgconfig/theora_image_transport.pc'
+[256.780s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib/python3.10/site-packages'
+[256.781s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/bin'
+[256.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.ps1'
+[256.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.dsv'
+[256.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.sh'
+[256.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.bash'
+[256.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.zsh'
+[256.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/colcon-core/packages/theora_image_transport)
+[257.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(theora_image_transport)
+[257.222s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport' for CMake module files
+[257.228s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport' for CMake config files
+[257.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'cmake_prefix_path')
+[257.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.ps1'
+[257.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.dsv'
+[257.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.sh'
+[257.250s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib'
+[257.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'ld_library_path_lib')
+[257.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.ps1'
+[257.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.dsv'
+[257.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.sh'
+[257.264s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/bin'
+[257.265s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib/pkgconfig/theora_image_transport.pc'
+[257.266s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib/python3.10/site-packages'
+[257.267s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/bin'
+[257.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.ps1'
+[257.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.dsv'
+[257.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.sh'
+[257.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.bash'
+[257.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/theora_image_transport/package.zsh'
+[257.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/share/colcon-core/packages/theora_image_transport)
+[257.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[257.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[257.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[257.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[257.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[257.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[257.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[258.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example'
+[258.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[258.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[261.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build install --record /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/install.log --single-version-externally-managed
+[263.443s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example' for CMake module files
+[263.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build install --record /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/install.log --single-version-externally-managed
+[263.450s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example' for CMake config files
+[263.460s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib'
+[263.461s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/bin'
+[263.461s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/pkgconfig/turtlebot3_example.pc'
+[263.463s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages'
+[263.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[263.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.ps1'
+[263.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.dsv'
+[263.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.sh'
+[263.475s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/bin'
+[263.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[263.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/package.ps1'
+[263.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/package.dsv'
+[263.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/package.sh'
+[263.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/package.bash'
+[263.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example/package.zsh'
+[263.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/colcon-core/packages/turtlebot3_example)
+[263.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[263.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[263.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[263.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[263.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[263.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[263.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[265.017s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop'
+[265.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[265.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[267.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build install --record /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[268.675s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop' for CMake module files
+[268.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build install --record /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[268.679s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop' for CMake config files
+[268.682s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib'
+[268.683s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/bin'
+[268.683s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[268.684s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages'
+[268.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[268.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[268.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[268.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[268.698s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/bin'
+[268.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[268.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[268.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[268.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[268.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[268.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[268.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[268.716s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/image_transport_plugins' with build type 'ament_cmake'
+[268.717s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/image_transport_plugins'
+[268.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[268.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[268.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/image_transport_plugins -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins
+[272.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/image_transport_plugins -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins
+[272.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/image_transport_plugins -- -j4 -l4
+[272.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/image_transport_plugins -- -j4 -l4
+[273.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/image_transport_plugins
+[273.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport_plugins)
+[273.086s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins' for CMake module files
+[273.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/image_transport_plugins' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/image_transport_plugins
+[273.090s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins' for CMake config files
+[273.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport_plugins', 'cmake_prefix_path')
+[273.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.ps1'
+[273.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.dsv'
+[273.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.sh'
+[273.106s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/bin'
+[273.107s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/lib/pkgconfig/image_transport_plugins.pc'
+[273.108s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/lib/python3.10/site-packages'
+[273.109s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/bin'
+[273.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.ps1'
+[273.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.dsv'
+[273.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.sh'
+[273.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.bash'
+[273.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.zsh'
+[273.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/colcon-core/packages/image_transport_plugins)
+[273.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport_plugins)
+[273.255s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins' for CMake module files
+[273.261s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins' for CMake config files
+[273.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport_plugins', 'cmake_prefix_path')
+[273.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.ps1'
+[273.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.dsv'
+[273.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.sh'
+[273.280s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/bin'
+[273.280s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/lib/pkgconfig/image_transport_plugins.pc'
+[273.281s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/lib/python3.10/site-packages'
+[273.282s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/bin'
+[273.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.ps1'
+[273.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.dsv'
+[273.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.sh'
+[273.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.bash'
+[273.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/image_transport_plugins/package.zsh'
+[273.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins/share/colcon-core/packages/image_transport_plugins)
+[273.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/cv_camera' with build type 'ament_cmake'
+[273.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/cv_camera'
+[273.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[273.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[273.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/cv_camera -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/cv_camera
+[286.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/cv_camera -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/cv_camera
+[286.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[327.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
+[327.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node
+[327.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[327.780s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node' for CMake module files
+[327.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node
+[327.785s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node' for CMake config files
+[327.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[327.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[327.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[327.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[327.802s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib'
+[327.803s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/bin'
+[327.804s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[327.805s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/python3.10/site-packages'
+[327.806s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/bin'
+[327.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[327.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[327.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[327.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[327.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[327.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[328.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[328.136s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node' for CMake module files
+[328.139s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node' for CMake config files
+[328.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[328.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[328.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[328.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[328.153s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib'
+[328.153s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/bin'
+[328.153s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[328.155s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/lib/python3.10/site-packages'
+[328.155s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/bin'
+[328.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[328.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[328.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[328.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[328.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[328.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[328.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_bringup' with build type 'ament_cmake'
+[328.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_bringup'
+[328.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[328.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[328.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[328.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup
+[328.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera
+[328.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_camera)
+[328.465s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera' for CMake module files
+[328.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera
+[328.469s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera' for CMake config files
+[328.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_camera', 'cmake_prefix_path')
+[328.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.ps1'
+[328.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.dsv'
+[328.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.sh'
+[328.487s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib'
+[328.488s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/bin'
+[328.489s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/pkgconfig/cv_camera.pc'
+[328.490s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/python3.10/site-packages'
+[328.491s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/bin'
+[328.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.ps1'
+[328.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.dsv'
+[328.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.sh'
+[328.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.bash'
+[328.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.zsh'
+[328.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/colcon-core/packages/cv_camera)
+[328.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_camera)
+[328.681s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera' for CMake module files
+[328.685s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera' for CMake config files
+[328.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_camera', 'cmake_prefix_path')
+[328.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.ps1'
+[328.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.dsv'
+[328.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/hook/cmake_prefix_path.sh'
+[328.702s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib'
+[328.703s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/bin'
+[328.703s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/pkgconfig/cv_camera.pc'
+[328.704s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/python3.10/site-packages'
+[328.706s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/cv_camera/bin'
+[328.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.ps1'
+[328.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.dsv'
+[328.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.sh'
+[328.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.bash'
+[328.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.zsh'
+[328.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/cv_camera/share/colcon-core/packages/cv_camera)
+[328.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/ld08_driver' with build type 'ament_cmake'
+[328.729s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/ld08_driver'
+[328.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[328.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[328.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/ld08_driver
+[331.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup
+[331.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup -- -j4 -l4
+[331.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup -- -j4 -l4
+[331.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup
+[332.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[332.021s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup' for CMake module files
+[332.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_bringup
+[332.024s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup' for CMake config files
+[332.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[332.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[332.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[332.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[332.037s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/bin'
+[332.038s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[332.039s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[332.040s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/bin'
+[332.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[332.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[332.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[332.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[332.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[332.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[332.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[332.168s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup' for CMake module files
+[332.171s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup' for CMake config files
+[332.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[332.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[332.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[332.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[332.185s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/bin'
+[332.185s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[332.186s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[332.187s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/bin'
+[332.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[332.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[332.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[332.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[332.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[332.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[332.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/rpi_temprature' with build type 'ament_python'
+[332.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_temprature', 'ament_prefix_path')
+[332.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/ament_prefix_path.ps1'
+[332.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/ament_prefix_path.dsv'
+[332.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/ament_prefix_path.sh'
+[332.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[332.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[333.473s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/t-pi/TB3_RPI4_WS/src/rpi_temprature'
+[333.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[333.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[335.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/src/rpi_temprature': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/rpi_temprature/prefix_override:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_temprature build --build-base /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build install --record /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/install.log --single-version-externally-managed
+[336.688s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature' for CMake module files
+[336.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/src/rpi_temprature' returned '0': PYTHONPATH=/home/t-pi/TB3_RPI4_WS/build/rpi_temprature/prefix_override:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_temprature build --build-base /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/build install --record /home/t-pi/TB3_RPI4_WS/build/rpi_temprature/install.log --single-version-externally-managed
+[336.692s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature' for CMake config files
+[336.696s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib'
+[336.696s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/bin'
+[336.696s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/pkgconfig/rpi_temprature.pc'
+[336.697s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages'
+[336.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_temprature', 'pythonpath')
+[336.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/pythonpath.ps1'
+[336.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/pythonpath.dsv'
+[336.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/hook/pythonpath.sh'
+[336.709s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/bin'
+[336.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rpi_temprature)
+[336.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/package.ps1'
+[336.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/package.dsv'
+[336.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/package.sh'
+[336.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/package.bash'
+[336.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/rpi_temprature/package.zsh'
+[336.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/share/colcon-core/packages/rpi_temprature)
+[336.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3' with build type 'ament_cmake'
+[336.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3'
+[336.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[336.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[336.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3
+[337.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/ld08_driver
+[337.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/ld08_driver -- -j4 -l4
+[342.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3
+[342.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3 -- -j4 -l4
+[342.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3 -- -j4 -l4
+[342.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3
+[342.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[342.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3
+[342.915s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3' for CMake module files
+[342.928s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3' for CMake config files
+[342.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[342.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[342.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[342.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[342.976s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/bin'
+[342.977s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[342.979s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/lib/python3.10/site-packages'
+[342.993s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/bin'
+[343.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.ps1'
+[343.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.dsv'
+[343.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.sh'
+[343.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.bash'
+[343.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.zsh'
+[343.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[343.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[343.229s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3' for CMake module files
+[343.246s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3' for CMake config files
+[343.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[343.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[343.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[343.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[343.293s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/bin'
+[343.294s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[343.295s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/lib/python3.10/site-packages'
+[343.297s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/bin'
+[343.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.ps1'
+[343.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.dsv'
+[343.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.sh'
+[343.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.bash'
+[343.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.zsh'
+[343.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[343.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-pi/TB3_RPI4_WS/src/usb_cam' with build type 'ament_cmake'
+[343.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-pi/TB3_RPI4_WS/src/usb_cam'
+[343.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[343.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[343.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/usb_cam
+[364.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/usb_cam
+[364.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/usb_cam -- -j4 -l4
+[367.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/ld08_driver -- -j4 -l4
+[367.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/ld08_driver
+[367.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[367.843s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver' for CMake module files
+[367.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/ld08_driver
+[367.849s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver' for CMake config files
+[367.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[367.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[367.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[367.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[367.873s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib'
+[367.874s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/bin'
+[367.875s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[367.877s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib/python3.10/site-packages'
+[367.878s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/bin'
+[367.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.ps1'
+[367.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.dsv'
+[367.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.sh'
+[367.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.bash'
+[367.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.zsh'
+[367.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[368.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[368.178s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver' for CMake module files
+[368.182s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver' for CMake config files
+[368.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[368.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[368.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[368.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[368.207s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib'
+[368.208s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/bin'
+[368.209s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[368.211s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/lib/python3.10/site-packages'
+[368.212s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/bin'
+[368.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.ps1'
+[368.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.dsv'
+[368.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.sh'
+[368.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.bash'
+[368.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/ld08_driver/package.zsh'
+[368.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[417.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/usb_cam -- -j4 -l4
+[417.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/usb_cam
+[418.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[418.042s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam' for CMake module files
+[418.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-pi/TB3_RPI4_WS/build/usb_cam' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble LD_LIBRARY_PATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/usb_cam
+[418.047s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam' for CMake config files
+[418.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[418.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[418.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[418.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[418.061s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib'
+[418.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[418.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[418.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[418.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[418.072s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/bin'
+[418.072s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[418.073s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib/python3.10/site-packages'
+[418.074s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/bin'
+[418.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.ps1'
+[418.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.dsv'
+[418.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.sh'
+[418.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.bash'
+[418.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.zsh'
+[418.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/colcon-core/packages/usb_cam)
+[418.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[418.358s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam' for CMake module files
+[418.361s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam' for CMake config files
+[418.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[418.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[418.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[418.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[418.375s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib'
+[418.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[418.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[418.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[418.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[418.387s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/bin'
+[418.387s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[418.388s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib/python3.10/site-packages'
+[418.389s] Level 1:colcon.colcon_core.environment:checking '/home/t-pi/TB3_RPI4_WS/install/usb_cam/bin'
+[418.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.ps1'
+[418.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.dsv'
+[418.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.sh'
+[418.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.bash'
+[418.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/usb_cam/package.zsh'
+[418.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-pi/TB3_RPI4_WS/install/usb_cam/share/colcon-core/packages/usb_cam)
+[418.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[418.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[418.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[418.410s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[418.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[418.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[418.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[418.464s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[418.654s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[418.655s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[418.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-pi/TB3_RPI4_WS/install/local_setup.ps1'
+[418.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-pi/TB3_RPI4_WS/install/_local_setup_util_ps1.py'
+[418.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-pi/TB3_RPI4_WS/install/setup.ps1'
+[418.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-pi/TB3_RPI4_WS/install/local_setup.sh'
+[418.694s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-pi/TB3_RPI4_WS/install/_local_setup_util_sh.py'
+[418.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-pi/TB3_RPI4_WS/install/setup.sh'
+[418.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-pi/TB3_RPI4_WS/install/local_setup.bash'
+[418.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-pi/TB3_RPI4_WS/install/setup.bash'
+[418.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-pi/TB3_RPI4_WS/install/local_setup.zsh'
+[418.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-pi/TB3_RPI4_WS/install/setup.zsh'

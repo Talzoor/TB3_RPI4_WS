@@ -1,0 +1,139 @@
+[0.048s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/cv_camera -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/cv_camera
+[0.332s] -- The C compiler identification is GNU 11.3.0
+[0.620s] -- The CXX compiler identification is GNU 11.3.0
+[0.654s] -- Detecting C compiler ABI info
+[2.338s] -- Detecting C compiler ABI info - done
+[2.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.369s] -- Detecting C compile features
+[2.371s] -- Detecting C compile features - done
+[2.385s] -- Detecting CXX compiler ABI info
+[2.764s] -- Detecting CXX compiler ABI info - done
+[2.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.797s] -- Detecting CXX compile features
+[2.799s] -- Detecting CXX compile features - done
+[2.831s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.820s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.557s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[4.587s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.031s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.103s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.201s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.195s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[7.735s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.774s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.576s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.868s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.479s] -- Looking for pthread.h
+[9.843s] -- Looking for pthread.h - found
+[9.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.208s] -- Found Threads: TRUE  
+[10.975s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[11.542s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[11.626s] -- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)
+[12.176s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[12.586s] -- Configuring done
+[12.728s] -- Generating done
+[12.738s] -- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/cv_camera
+[12.786s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/cv_camera -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/cv_camera
+[12.795s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[13.018s] [ 20%] [32mBuilding CXX object CMakeFiles/cv_camera.dir/src/capture.cpp.o[0m
+[13.022s] [ 40%] [32mBuilding CXX object CMakeFiles/cv_camera.dir/src/driver.cpp.o[0m
+[28.327s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+[28.328s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:3[m[K:
+[28.329s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[28.329s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[28.330s]       |                                                                                         [01;36m[K^[m[K
+[28.402s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+[28.402s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+[28.403s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[28.404s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[28.404s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[28.405s]       |                                                                                         [01;36m[K^[m[K
+[28.639s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+[28.640s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:3[m[K:
+[28.640s] [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+[28.641s]    41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+[28.642s]       |                                                                                             [01;36m[K^[m[K
+[28.728s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+[28.729s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+[28.730s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[28.730s] [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+[28.731s]    41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+[28.732s]       |                                                                                             [01;36m[K^[m[K
+[28.821s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:[m[K In member function ‘[01m[Kbool cv_camera::Capture::capture()[m[K’:
+[28.821s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:140:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[28.822s]   140 |     else if ([01;35m[Kinfo_.height != bridge_.image.rows[m[K || info_.width != bridge_.image.cols)
+[28.823s]       |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[28.823s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/capture.cpp:140:64:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[28.824s]   140 |     else if (info_.height != bridge_.image.rows || [01;35m[Kinfo_.width != bridge_.image.cols[m[K)
+[28.825s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[28.909s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[28.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[28.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[28.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[28.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[28.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[28.912s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[28.913s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[28.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[28.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[28.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[28.916s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:9[m[K,
+[28.916s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+[28.917s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:3[m[K:
+[28.917s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:[m[K In member function ‘[01m[Kvoid cv_camera::Driver::setup()[m[K’:
+[28.918s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:36:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[28.919s]    36 |   RCLCPP_INFO(private_node_->get_logger(), [01;35m[K"camera_node_=%s"[m[K, camera_node_);
+[28.919s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[28.920s] [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/driver.cpp:36:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[28.920s]    36 |   RCLCPP_INFO(private_node_->get_logger(), "camera_node_=[01;36m[K%s[m[K", camera_node_);
+[28.921s]       |                                                          [01;36m[K~^[m[K
+[28.922s]       |                                                           [01;36m[K|[m[K
+[28.922s]       |                                                           [01;36m[Kchar*[m[K
+[32.391s] [ 60%] [32m[1mLinking CXX static library libcv_camera.a[0m
+[32.567s] [ 60%] Built target cv_camera
+[32.659s] [ 80%] [32mBuilding CXX object CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.o[0m
+[47.656s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:11[m[K,
+[47.657s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+[47.657s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/cv_camera_node.cpp:3[m[K:
+[47.658s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[47.658s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[47.658s]       |                                                                                         [01;36m[K^[m[K
+[47.913s] In file included from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/capture.h:15[m[K,
+[47.914s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/include/cv_camera/driver.h:6[m[K,
+[47.915s]                  from [01m[K/home/t-pi/TB3_RPI4_WS/src/cv_camera/src/cv_camera_node.cpp:3[m[K:
+[47.916s] [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.h:41:93:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead[m[K’
+[47.917s]    41 | #pragma message ("Warning: This header is deprecated. Use 'camera_info_manager.hpp' instead"[01;36m[K)[m[K
+[47.918s]       |                                                                                             [01;36m[K^[m[K
+[51.347s] [100%] [32m[1mLinking CXX executable cv_camera_node[0m
+[54.775s] [100%] Built target cv_camera_node
+[54.893s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/cv_camera -- -j4 -l4
+[55.063s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera
+[55.091s] -- Install configuration: ""
+[55.092s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/cv_camera/libcv_camera.a
+[55.098s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/cv_camera/cv_camera_node
+[55.102s] -- Set runtime path of "/home/t-pi/TB3_RPI4_WS/install/cv_camera/lib/cv_camera/cv_camera_node" to ""
+[55.103s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include/
+[55.103s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//driver.h
+[55.104s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//exception.h
+[55.105s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/include//capture.h
+[55.107s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/package_run_dependencies/cv_camera
+[55.109s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/parent_prefix_path/cv_camera
+[55.111s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/ament_prefix_path.sh
+[55.112s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/ament_prefix_path.dsv
+[55.114s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/path.sh
+[55.115s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/environment/path.dsv
+[55.116s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.bash
+[55.117s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.sh
+[55.119s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.zsh
+[55.120s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/local_setup.dsv
+[55.121s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.dsv
+[55.123s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/ament_index/resource_index/packages/cv_camera
+[55.125s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/cmake/cv_cameraConfig.cmake
+[55.126s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/cmake/cv_cameraConfig-version.cmake
+[55.128s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/cv_camera/share/cv_camera/package.xml
+[55.146s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/cv_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/cv_camera

@@ -1,0 +1,1032 @@
+[0.000000] (-) TimerEvent: {}
+[0.001968] (compressed_depth_image_transport) JobQueued: {'identifier': 'compressed_depth_image_transport', 'dependencies': OrderedDict()}
+[0.002561] (compressed_image_transport) JobQueued: {'identifier': 'compressed_image_transport', 'dependencies': OrderedDict()}
+[0.002667] (cv_camera) JobQueued: {'identifier': 'cv_camera', 'dependencies': OrderedDict()}
+[0.004922] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.005142] (rpi_temprature) JobQueued: {'identifier': 'rpi_temprature', 'dependencies': OrderedDict()}
+[0.005436] (theora_image_transport) JobQueued: {'identifier': 'theora_image_transport', 'dependencies': OrderedDict()}
+[0.005607] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.005718] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.005862] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.005953] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.006086] (image_transport_plugins) JobQueued: {'identifier': 'image_transport_plugins', 'dependencies': OrderedDict([('compressed_depth_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'), ('theora_image_transport', '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport')])}
+[0.006217] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description'), ('turtlebot3_node', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node')])}
+[0.006340] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_description', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description'), ('turtlebot3_example', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example'), ('turtlebot3_node', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup')])}
+[0.007919] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict([('compressed_depth_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'), ('theora_image_transport', '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport'), ('image_transport_plugins', '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins')])}
+[0.008145] (compressed_depth_image_transport) JobStarted: {'identifier': 'compressed_depth_image_transport'}
+[0.050338] (compressed_image_transport) JobStarted: {'identifier': 'compressed_image_transport'}
+[0.082439] (theora_image_transport) JobStarted: {'identifier': 'theora_image_transport'}
+[0.099887] (-) TimerEvent: {}
+[0.114730] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.154532] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'cmake'}
+[0.155597] (compressed_depth_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_depth_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[0.170344] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'cmake'}
+[0.171278] (compressed_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[0.184889] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'cmake'}
+[0.191747] (theora_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[0.200117] (-) TimerEvent: {}
+[0.216999] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.218743] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_description', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[0.300342] (-) TimerEvent: {}
+[0.401305] (-) TimerEvent: {}
+[0.496078] (compressed_depth_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.501619] (-) TimerEvent: {}
+[0.554494] (compressed_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.570858] (theora_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.579438] (turtlebot3_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.601864] (-) TimerEvent: {}
+[0.702864] (-) TimerEvent: {}
+[0.804344] (-) TimerEvent: {}
+[0.905525] (-) TimerEvent: {}
+[0.924927] (compressed_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.932014] (compressed_depth_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.965224] (theora_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.969314] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.980603] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.004509] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.005674] (-) TimerEvent: {}
+[1.031308] (turtlebot3_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.073155] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.106246] (-) TimerEvent: {}
+[1.207179] (-) TimerEvent: {}
+[1.309233] (-) TimerEvent: {}
+[1.410911] (-) TimerEvent: {}
+[1.416481] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.417723] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.446091] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.451707] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.452797] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.454623] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.458359] (compressed_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.461528] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.464588] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.471343] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.480746] (theora_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.482433] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.484473] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.486158] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.500002] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.504306] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.511113] (-) TimerEvent: {}
+[1.537706] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.539998] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.542668] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.557872] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.611441] (-) TimerEvent: {}
+[1.712560] (-) TimerEvent: {}
+[1.813596] (-) TimerEvent: {}
+[1.914872] (-) TimerEvent: {}
+[1.965583] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.990719] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.002672] (compressed_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.004004] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.006343] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.008917] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.015046] (-) TimerEvent: {}
+[2.029916] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.032328] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.034604] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.035503] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.039485] (compressed_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.043887] (theora_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.044973] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.046989] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.067080] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.072395] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.074542] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.077459] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.078397] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.110428] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.115246] (-) TimerEvent: {}
+[2.216255] (-) TimerEvent: {}
+[2.317553] (-) TimerEvent: {}
+[2.418996] (-) TimerEvent: {}
+[2.520697] (-) TimerEvent: {}
+[2.622731] (-) TimerEvent: {}
+[2.725954] (-) TimerEvent: {}
+[2.827673] (-) TimerEvent: {}
+[2.929530] (-) TimerEvent: {}
+[3.031307] (-) TimerEvent: {}
+[3.132793] (-) TimerEvent: {}
+[3.234197] (-) TimerEvent: {}
+[3.290633] (compressed_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.334474] (-) TimerEvent: {}
+[3.353833] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.395102] (theora_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.434692] (-) TimerEvent: {}
+[3.438092] (turtlebot3_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.534917] (-) TimerEvent: {}
+[3.636002] (-) TimerEvent: {}
+[3.737074] (-) TimerEvent: {}
+[3.838503] (-) TimerEvent: {}
+[3.940244] (-) TimerEvent: {}
+[4.041540] (-) TimerEvent: {}
+[4.068306] (compressed_image_transport) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.129979] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.141751] (-) TimerEvent: {}
+[4.176194] (theora_image_transport) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.192180] (turtlebot3_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.241912] (-) TimerEvent: {}
+[4.404811] (-) TimerEvent: {}
+[4.505648] (-) TimerEvent: {}
+[4.544460] (compressed_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.600108] (compressed_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.604449] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.605856] (-) TimerEvent: {}
+[4.658832] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.659508] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.676314] (compressed_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.706056] (-) TimerEvent: {}
+[4.713844] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.730902] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.779072] (compressed_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.787052] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.806240] (-) TimerEvent: {}
+[4.833081] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.891746] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.906437] (-) TimerEvent: {}
+[4.936251] (compressed_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.988768] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.006647] (-) TimerEvent: {}
+[5.049713] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.106852] (-) TimerEvent: {}
+[5.180005] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.206122] (turtlebot3_description) StdoutLine: {'line': b'-- Generating done\n'}
+[5.206969] (-) TimerEvent: {}
+[5.214313] (turtlebot3_description) StdoutLine: {'line': b'-- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/turtlebot3_description\n'}
+[5.244086] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[5.245648] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[5.245931] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description', '--', '-j4', '-l4'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[5.307208] (-) TimerEvent: {}
+[5.408613] (-) TimerEvent: {}
+[5.428666] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[5.449846] (compressed_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.482393] (compressed_image_transport) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.498070] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.508830] (-) TimerEvent: {}
+[5.530123] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.556579] (theora_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.563593] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[5.588658] (theora_image_transport) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.609524] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[5.611202] (-) TimerEvent: {}
+[5.644900] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.646490] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes\n'}
+[5.647419] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors\n'}
+[5.648306] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[5.711451] (-) TimerEvent: {}
+[5.730146] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[5.733116] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[5.734899] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[5.736185] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[5.744944] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases\n'}
+[5.746667] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[5.791176] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[5.811670] (-) TimerEvent: {}
+[5.862359] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[5.911870] (-) TimerEvent: {}
+[6.007921] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels\n'}
+[6.009520] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[6.012090] (-) TimerEvent: {}
+[6.022607] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[6.034811] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/rviz\n'}
+[6.035973] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz\n'}
+[6.037503] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/urdf\n'}
+[6.038663] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[6.039748] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf\n'}
+[6.041245] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[6.042527] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[6.044792] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[6.047119] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[6.049010] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[6.050585] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[6.052187] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[6.053648] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[6.055486] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[6.057044] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[6.058666] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[6.060312] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[6.061854] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[6.063612] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[6.065682] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[6.067216] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[6.068960] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[6.079675] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[6.112838] (-) TimerEvent: {}
+[6.214382] (-) TimerEvent: {}
+[6.272087] (compressed_image_transport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.298391] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.314607] (-) TimerEvent: {}
+[6.357005] (theora_image_transport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.380231] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[6.391130] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[6.414763] (-) TimerEvent: {}
+[6.430460] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[6.434117] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[6.514997] (-) TimerEvent: {}
+[6.567840] (compressed_image_transport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.608109] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.615189] (-) TimerEvent: {}
+[6.666094] (theora_image_transport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.715416] (-) TimerEvent: {}
+[6.732848] (turtlebot3_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[6.815652] (-) TimerEvent: {}
+[6.917405] (-) TimerEvent: {}
+[7.016141] (turtlebot3_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[7.017569] (-) TimerEvent: {}
+[7.052093] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.063810] (compressed_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.117861] (-) TimerEvent: {}
+[7.120893] (compressed_depth_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.167846] (theora_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.169364] (compressed_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.218043] (-) TimerEvent: {}
+[7.227331] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.278435] (theora_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.318247] (-) TimerEvent: {}
+[7.419778] (-) TimerEvent: {}
+[7.442520] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.478189] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.479301] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.481111] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.496568] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.520120] (-) TimerEvent: {}
+[7.621898] (-) TimerEvent: {}
+[7.623586] (compressed_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.625289] (compressed_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.669479] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.672760] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.722139] (-) TimerEvent: {}
+[7.729900] (theora_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.731633] (theora_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.822360] (-) TimerEvent: {}
+[7.923355] (-) TimerEvent: {}
+[8.000832] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.023646] (-) TimerEvent: {}
+[8.038733] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.042191] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.046192] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.084766] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.092198] (compressed_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.097551] (compressed_image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.116176] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.122224] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.123877] (-) TimerEvent: {}
+[8.171734] (theora_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.178042] (theora_image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.224106] (-) TimerEvent: {}
+[8.325865] (-) TimerEvent: {}
+[8.428161] (-) TimerEvent: {}
+[8.529559] (-) TimerEvent: {}
+[8.631097] (-) TimerEvent: {}
+[8.732760] (-) TimerEvent: {}
+[8.834632] (-) TimerEvent: {}
+[8.935516] (-) TimerEvent: {}
+[9.036426] (-) TimerEvent: {}
+[9.137364] (-) TimerEvent: {}
+[9.181395] (turtlebot3_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[9.237627] (-) TimerEvent: {}
+[9.338667] (-) TimerEvent: {}
+[9.439821] (-) TimerEvent: {}
+[9.540838] (-) TimerEvent: {}
+[9.641993] (-) TimerEvent: {}
+[9.743024] (-) TimerEvent: {}
+[9.843900] (-) TimerEvent: {}
+[9.909555] (turtlebot3_node) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)\n'}
+[9.944162] (-) TimerEvent: {}
+[9.944924] (turtlebot3_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.044420] (-) TimerEvent: {}
+[10.145268] (-) TimerEvent: {}
+[10.162349] (compressed_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[10.178474] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[10.245514] (-) TimerEvent: {}
+[10.266210] (theora_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[10.271702] (compressed_image_transport) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[10.286354] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[10.333297] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.345795] (-) TimerEvent: {}
+[10.396565] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.397368] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.445919] (-) TimerEvent: {}
+[10.479836] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.486335] (theora_image_transport) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: imgproc \n'}
+[10.507247] (theora_image_transport) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[10.512580] (theora_image_transport) StdoutLine: {'line': b"-- Checking for module 'ogg'\n"}
+[10.546129] (-) TimerEvent: {}
+[10.598970] (theora_image_transport) StdoutLine: {'line': b'--   Found ogg, version 1.3.5\n'}
+[10.601346] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.646466] (-) TimerEvent: {}
+[10.682217] (compressed_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.696102] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.746646] (-) TimerEvent: {}
+[10.777541] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.789764] (compressed_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[10.799300] (compressed_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport\n'}
+[10.801085] (theora_image_transport) StdoutLine: {'line': b"-- Checking for module 'theora'\n"}
+[10.804568] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[10.817714] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport\n'}
+[10.847054] (-) TimerEvent: {}
+[10.870044] (compressed_image_transport) CommandEnded: {'returncode': 0}
+[10.872238] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'build'}
+[10.881255] (compressed_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[10.894862] (compressed_depth_image_transport) CommandEnded: {'returncode': 0}
+[10.896695] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'build'}
+[10.896876] (compressed_depth_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[10.898989] (theora_image_transport) StdoutLine: {'line': b'--   Found theora, version 1.1.1\n'}
+[10.947270] (-) TimerEvent: {}
+[11.048763] (-) TimerEvent: {}
+[11.113291] (theora_image_transport) StdoutLine: {'line': b"-- Checking for module 'theoraenc'\n"}
+[11.148975] (-) TimerEvent: {}
+[11.167223] (compressed_image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o\x1b[0m\n'}
+[11.186236] (compressed_image_transport) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o\x1b[0m\n'}
+[11.211052] (compressed_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[11.211786] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o\x1b[0m\n'}
+[11.217926] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o\x1b[0m\n'}
+[11.240424] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[11.247185] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/codec.cpp.o\x1b[0m\n'}
+[11.252115] (-) TimerEvent: {}
+[11.269561] (theora_image_transport) StdoutLine: {'line': b'--   Found theoraenc, version 1.1.1\n'}
+[11.352372] (-) TimerEvent: {}
+[11.453949] (-) TimerEvent: {}
+[11.565923] (-) TimerEvent: {}
+[11.622234] (theora_image_transport) StdoutLine: {'line': b"-- Checking for module 'theoradec'\n"}
+[11.666105] (-) TimerEvent: {}
+[11.766974] (-) TimerEvent: {}
+[11.792582] (theora_image_transport) StdoutLine: {'line': b'--   Found theoradec, version 1.1.1\n'}
+[11.867193] (-) TimerEvent: {}
+[11.968079] (-) TimerEvent: {}
+[11.984861] (turtlebot3_node) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[12.068315] (-) TimerEvent: {}
+[12.169762] (-) TimerEvent: {}
+[12.271119] (-) TimerEvent: {}
+[12.372715] (-) TimerEvent: {}
+[12.473997] (-) TimerEvent: {}
+[12.575388] (-) TimerEvent: {}
+[12.676796] (-) TimerEvent: {}
+[12.778124] (-) TimerEvent: {}
+[12.879554] (-) TimerEvent: {}
+[12.980969] (-) TimerEvent: {}
+[13.081834] (-) TimerEvent: {}
+[13.183150] (-) TimerEvent: {}
+[13.226385] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[13.283354] (-) TimerEvent: {}
+[13.299981] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[13.383563] (-) TimerEvent: {}
+[13.484878] (-) TimerEvent: {}
+[13.586328] (-) TimerEvent: {}
+[13.687724] (-) TimerEvent: {}
+[13.788916] (-) TimerEvent: {}
+[13.889961] (-) TimerEvent: {}
+[13.990775] (-) TimerEvent: {}
+[14.091617] (-) TimerEvent: {}
+[14.192529] (-) TimerEvent: {}
+[14.293459] (-) TimerEvent: {}
+[14.394900] (-) TimerEvent: {}
+[14.496280] (-) TimerEvent: {}
+[14.614444] (-) TimerEvent: {}
+[14.715269] (-) TimerEvent: {}
+[14.816121] (-) TimerEvent: {}
+[14.916968] (-) TimerEvent: {}
+[15.017908] (-) TimerEvent: {}
+[15.079231] (turtlebot3_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.118324] (-) TimerEvent: {}
+[15.220346] (-) TimerEvent: {}
+[15.267279] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[15.320600] (-) TimerEvent: {}
+[15.342270] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[15.398941] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[15.420825] (-) TimerEvent: {}
+[15.466577] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[15.521086] (-) TimerEvent: {}
+[15.622738] (-) TimerEvent: {}
+[15.724472] (-) TimerEvent: {}
+[15.825550] (-) TimerEvent: {}
+[15.838072] (turtlebot3_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[15.925914] (-) TimerEvent: {}
+[16.027764] (-) TimerEvent: {}
+[16.129429] (-) TimerEvent: {}
+[16.231301] (-) TimerEvent: {}
+[16.332998] (-) TimerEvent: {}
+[16.435002] (-) TimerEvent: {}
+[16.536884] (-) TimerEvent: {}
+[16.638600] (-) TimerEvent: {}
+[16.740320] (-) TimerEvent: {}
+[16.841760] (-) TimerEvent: {}
+[16.943293] (-) TimerEvent: {}
+[17.045028] (-) TimerEvent: {}
+[17.146817] (-) TimerEvent: {}
+[17.248689] (-) TimerEvent: {}
+[17.345644] (turtlebot3_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.348944] (-) TimerEvent: {}
+[17.450948] (-) TimerEvent: {}
+[17.553512] (-) TimerEvent: {}
+[17.655239] (-) TimerEvent: {}
+[17.727069] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.755486] (-) TimerEvent: {}
+[17.856616] (-) TimerEvent: {}
+[17.958476] (-) TimerEvent: {}
+[18.060699] (-) TimerEvent: {}
+[18.162660] (-) TimerEvent: {}
+[18.264966] (-) TimerEvent: {}
+[18.367352] (-) TimerEvent: {}
+[18.469147] (-) TimerEvent: {}
+[18.567594] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.569423] (-) TimerEvent: {}
+[18.580149] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.669710] (-) TimerEvent: {}
+[18.770956] (-) TimerEvent: {}
+[18.872000] (-) TimerEvent: {}
+[18.973016] (-) TimerEvent: {}
+[19.074172] (-) TimerEvent: {}
+[19.175292] (-) TimerEvent: {}
+[19.277104] (-) TimerEvent: {}
+[19.379009] (-) TimerEvent: {}
+[19.482471] (-) TimerEvent: {}
+[19.583512] (-) TimerEvent: {}
+[19.684809] (-) TimerEvent: {}
+[19.785973] (-) TimerEvent: {}
+[19.887251] (-) TimerEvent: {}
+[19.950811] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.978776] (turtlebot3_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.987573] (-) TimerEvent: {}
+[20.089923] (-) TimerEvent: {}
+[20.191148] (-) TimerEvent: {}
+[20.293403] (-) TimerEvent: {}
+[20.394948] (-) TimerEvent: {}
+[20.496420] (-) TimerEvent: {}
+[20.598165] (-) TimerEvent: {}
+[20.700303] (-) TimerEvent: {}
+[20.802316] (-) TimerEvent: {}
+[20.904589] (-) TimerEvent: {}
+[20.932773] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.004821] (-) TimerEvent: {}
+[21.105964] (-) TimerEvent: {}
+[21.207242] (-) TimerEvent: {}
+[21.308411] (-) TimerEvent: {}
+[21.417939] (-) TimerEvent: {}
+[21.520123] (-) TimerEvent: {}
+[21.622589] (-) TimerEvent: {}
+[21.724794] (-) TimerEvent: {}
+[21.827217] (-) TimerEvent: {}
+[21.928286] (-) TimerEvent: {}
+[22.029347] (-) TimerEvent: {}
+[22.135868] (-) TimerEvent: {}
+[22.237319] (-) TimerEvent: {}
+[22.349999] (-) TimerEvent: {}
+[22.465927] (-) TimerEvent: {}
+[22.479228] (turtlebot3_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[22.566268] (-) TimerEvent: {}
+[22.667511] (-) TimerEvent: {}
+[22.726213] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.767738] (-) TimerEvent: {}
+[22.868888] (-) TimerEvent: {}
+[22.970008] (-) TimerEvent: {}
+[23.071374] (-) TimerEvent: {}
+[23.169032] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[23.171683] (-) TimerEvent: {}
+[23.250188] (theora_image_transport) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[23.271935] (-) TimerEvent: {}
+[23.373963] (-) TimerEvent: {}
+[23.475764] (-) TimerEvent: {}
+[23.576781] (-) TimerEvent: {}
+[23.677955] (-) TimerEvent: {}
+[23.768230] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[23.775183] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[23.778208] (-) TimerEvent: {}
+[23.779683] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[23.781619] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[23.878415] (-) TimerEvent: {}
+[23.979437] (-) TimerEvent: {}
+[24.002335] (turtlebot3_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[24.079719] (-) TimerEvent: {}
+[24.180877] (-) TimerEvent: {}
+[24.219992] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[24.281183] (-) TimerEvent: {}
+[24.382455] (-) TimerEvent: {}
+[24.483627] (-) TimerEvent: {}
+[24.585013] (-) TimerEvent: {}
+[24.686146] (-) TimerEvent: {}
+[24.787516] (-) TimerEvent: {}
+[24.914844] (-) TimerEvent: {}
+[24.938079] (turtlebot3_node) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[25.015080] (-) TimerEvent: {}
+[25.071480] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[25.115318] (-) TimerEvent: {}
+[25.217062] (-) TimerEvent: {}
+[25.318843] (-) TimerEvent: {}
+[25.323262] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[25.379521] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[25.419093] (-) TimerEvent: {}
+[25.435898] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[25.519338] (-) TimerEvent: {}
+[25.620401] (-) TimerEvent: {}
+[25.678347] (theora_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.720651] (-) TimerEvent: {}
+[25.821865] (-) TimerEvent: {}
+[25.923003] (-) TimerEvent: {}
+[26.025029] (-) TimerEvent: {}
+[26.126977] (-) TimerEvent: {}
+[26.228789] (-) TimerEvent: {}
+[26.329934] (-) TimerEvent: {}
+[26.430995] (-) TimerEvent: {}
+[26.532104] (-) TimerEvent: {}
+[26.633942] (-) TimerEvent: {}
+[26.735719] (-) TimerEvent: {}
+[26.816173] (theora_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[26.836015] (-) TimerEvent: {}
+[26.933443] (theora_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/theora_image_transport\n'}
+[26.936291] (-) TimerEvent: {}
+[27.037960] (-) TimerEvent: {}
+[27.139111] (-) TimerEvent: {}
+[27.165129] (theora_image_transport) CommandEnded: {'returncode': 0}
+[27.189125] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'build'}
+[27.189544] (theora_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[27.239443] (-) TimerEvent: {}
+[27.341556] (-) TimerEvent: {}
+[27.443422] (-) TimerEvent: {}
+[27.545161] (-) TimerEvent: {}
+[27.646764] (-) TimerEvent: {}
+[27.711649] (theora_image_transport) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[27.747000] (-) TimerEvent: {}
+[27.822796] (theora_image_transport) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[27.847252] (-) TimerEvent: {}
+[27.948836] (-) TimerEvent: {}
+[28.049947] (-) TimerEvent: {}
+[28.051812] (theora_image_transport) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_theora_image_transport\n'}
+[28.150142] (-) TimerEvent: {}
+[28.252092] (-) TimerEvent: {}
+[28.353297] (-) TimerEvent: {}
+[28.455563] (-) TimerEvent: {}
+[28.557388] (-) TimerEvent: {}
+[28.659326] (-) TimerEvent: {}
+[28.760401] (-) TimerEvent: {}
+[28.862158] (-) TimerEvent: {}
+[28.963909] (-) TimerEvent: {}
+[29.065701] (-) TimerEvent: {}
+[29.167596] (-) TimerEvent: {}
+[29.269396] (-) TimerEvent: {}
+[29.370462] (-) TimerEvent: {}
+[29.471577] (-) TimerEvent: {}
+[29.572936] (-) TimerEvent: {}
+[29.674108] (-) TimerEvent: {}
+[29.775218] (-) TimerEvent: {}
+[29.911247] (-) TimerEvent: {}
+[30.013047] (-) TimerEvent: {}
+[30.114845] (-) TimerEvent: {}
+[30.216109] (-) TimerEvent: {}
+[30.317125] (-) TimerEvent: {}
+[30.418141] (-) TimerEvent: {}
+[30.519281] (-) TimerEvent: {}
+[30.620456] (-) TimerEvent: {}
+[30.721453] (-) TimerEvent: {}
+[30.823122] (-) TimerEvent: {}
+[30.924811] (-) TimerEvent: {}
+[31.026497] (-) TimerEvent: {}
+[31.128139] (-) TimerEvent: {}
+[31.229657] (-) TimerEvent: {}
+[31.331351] (-) TimerEvent: {}
+[31.433032] (-) TimerEvent: {}
+[31.534700] (-) TimerEvent: {}
+[31.636547] (-) TimerEvent: {}
+[31.738391] (-) TimerEvent: {}
+[31.763331] (turtlebot3_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[31.838631] (-) TimerEvent: {}
+[31.940358] (-) TimerEvent: {}
+[32.042141] (-) TimerEvent: {}
+[32.143761] (-) TimerEvent: {}
+[32.245491] (-) TimerEvent: {}
+[32.347255] (-) TimerEvent: {}
+[32.448994] (-) TimerEvent: {}
+[32.550584] (-) TimerEvent: {}
+[32.652258] (-) TimerEvent: {}
+[32.753719] (-) TimerEvent: {}
+[32.855516] (-) TimerEvent: {}
+[32.957235] (-) TimerEvent: {}
+[33.059066] (-) TimerEvent: {}
+[33.160796] (-) TimerEvent: {}
+[33.168498] (theora_image_transport) StdoutLine: {'line': b'running egg_info\n'}
+[33.182312] (theora_image_transport) StdoutLine: {'line': b'creating theora_image_transport.egg-info\n'}
+[33.211219] (theora_image_transport) StdoutLine: {'line': b'writing theora_image_transport.egg-info/PKG-INFO\n'}
+[33.226096] (theora_image_transport) StdoutLine: {'line': b'writing dependency_links to theora_image_transport.egg-info/dependency_links.txt\n'}
+[33.261111] (-) TimerEvent: {}
+[33.286208] (theora_image_transport) StdoutLine: {'line': b'writing top-level names to theora_image_transport.egg-info/top_level.txt\n'}
+[33.287672] (theora_image_transport) StdoutLine: {'line': b"writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'\n"}
+[33.361339] (-) TimerEvent: {}
+[33.397835] (theora_image_transport) StdoutLine: {'line': b"reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'\n"}
+[33.409691] (theora_image_transport) StdoutLine: {'line': b"writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'\n"}
+[33.461629] (-) TimerEvent: {}
+[33.563455] (-) TimerEvent: {}
+[33.665255] (-) TimerEvent: {}
+[33.767045] (-) TimerEvent: {}
+[33.869683] (-) TimerEvent: {}
+[33.918100] (theora_image_transport) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_theora_image_transport_egg\n'}
+[33.969955] (-) TimerEvent: {}
+[34.071035] (-) TimerEvent: {}
+[34.172168] (-) TimerEvent: {}
+[34.208184] (theora_image_transport) StdoutLine: {'line': b'[  5%] Built target theora_image_transport__cpp\n'}
+[34.272422] (-) TimerEvent: {}
+[34.332913] (theora_image_transport) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[34.372688] (-) TimerEvent: {}
+[34.425953] (theora_image_transport) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/theora_image_transport__rosidl_generator_c.dir/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c.o\x1b[0m\n'}
+[34.472986] (-) TimerEvent: {}
+[34.574785] (-) TimerEvent: {}
+[34.675777] (-) TimerEvent: {}
+[34.750569] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.776033] (-) TimerEvent: {}
+[34.878620] (-) TimerEvent: {}
+[34.980372] (-) TimerEvent: {}
+[34.981359] (theora_image_transport) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libtheora_image_transport__rosidl_generator_c.so\x1b[0m\n'}
+[34.993699] (turtlebot3_node) StdoutLine: {'line': b'-- Generating done\n'}
+[35.014972] (turtlebot3_node) StdoutLine: {'line': b'-- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node\n'}
+[35.080779] (-) TimerEvent: {}
+[35.127688] (turtlebot3_node) CommandEnded: {'returncode': 0}
+[35.130621] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'build'}
+[35.130959] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node', '--', '-j4', '-l4'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.2.1 59255 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam/lib:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport/lib:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 59255 192.168.2.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/t-pi/TB3_RPI4_WS/install/usb_cam:/home/t-pi/TB3_RPI4_WS/install/turtlebot3:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins:/home/t-pi/TB3_RPI4_WS/install/theora_image_transport:/home/t-pi/TB3_RPI4_WS/install/ld08_driver:/home/t-pi/TB3_RPI4_WS/install/cv_camera:/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport:/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:/home/t-pi/TB3_RPI4_WS/install/rpi_temprature:/opt/ros/humble')]), 'shell': False}
+[35.181021] (-) TimerEvent: {}
+[35.282799] (-) TimerEvent: {}
+[35.383915] (-) TimerEvent: {}
+[35.484991] (-) TimerEvent: {}
+[35.586757] (-) TimerEvent: {}
+[35.688309] (-) TimerEvent: {}
+[35.775557] (theora_image_transport) StdoutLine: {'line': b'[ 13%] Built target theora_image_transport__rosidl_generator_c\n'}
+[35.788574] (-) TimerEvent: {}
+[35.890416] (-) TimerEvent: {}
+[35.900500] (turtlebot3_node) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o\x1b[0m\n'}
+[35.933919] (theora_image_transport) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[35.951728] (turtlebot3_node) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o\x1b[0m\n'}
+[35.990617] (-) TimerEvent: {}
+[36.091541] (-) TimerEvent: {}
+[36.192547] (-) TimerEvent: {}
+[36.293439] (-) TimerEvent: {}
+[36.394445] (-) TimerEvent: {}
+[36.495357] (-) TimerEvent: {}
+[36.597411] (-) TimerEvent: {}
+[36.699597] (-) TimerEvent: {}
+[36.801392] (-) TimerEvent: {}
+[36.903118] (-) TimerEvent: {}
+[37.005047] (-) TimerEvent: {}
+[37.107093] (-) TimerEvent: {}
+[37.208094] (-) TimerEvent: {}
+[37.309095] (-) TimerEvent: {}
+[37.410091] (-) TimerEvent: {}
+[37.511893] (-) TimerEvent: {}
+[37.612851] (-) TimerEvent: {}
+[37.713916] (-) TimerEvent: {}
+[37.814814] (-) TimerEvent: {}
+[37.916574] (-) TimerEvent: {}
+[38.017483] (-) TimerEvent: {}
+[38.119737] (-) TimerEvent: {}
+[38.220811] (-) TimerEvent: {}
+[38.321873] (-) TimerEvent: {}
+[38.422789] (-) TimerEvent: {}
+[38.524368] (-) TimerEvent: {}
+[38.626181] (-) TimerEvent: {}
+[38.728025] (-) TimerEvent: {}
+[38.829880] (-) TimerEvent: {}
+[38.931996] (-) TimerEvent: {}
+[39.033864] (-) TimerEvent: {}
+[39.135866] (-) TimerEvent: {}
+[39.239661] (-) TimerEvent: {}
+[39.341495] (-) TimerEvent: {}
+[39.443705] (-) TimerEvent: {}
+[39.546081] (-) TimerEvent: {}
+[39.647930] (-) TimerEvent: {}
+[39.750098] (-) TimerEvent: {}
+[39.851967] (-) TimerEvent: {}
+[39.954533] (-) TimerEvent: {}
+[40.055423] (-) TimerEvent: {}
+[40.145152] (theora_image_transport) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp.o\x1b[0m\n'}
+[40.155637] (-) TimerEvent: {}
+[40.257182] (-) TimerEvent: {}
+[40.359275] (-) TimerEvent: {}
+[40.460646] (-) TimerEvent: {}
+[40.562605] (-) TimerEvent: {}
+[40.664217] (-) TimerEvent: {}
+[40.765996] (-) TimerEvent: {}
+[40.867470] (-) TimerEvent: {}
+[40.905838] (theora_image_transport) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp.o\x1b[0m\n'}
+[40.967774] (-) TimerEvent: {}
+[41.069445] (-) TimerEvent: {}
+[41.171007] (-) TimerEvent: {}
+[41.272766] (-) TimerEvent: {}
+[41.374707] (-) TimerEvent: {}
+[41.476329] (-) TimerEvent: {}
+[41.577965] (-) TimerEvent: {}
+[41.679721] (-) TimerEvent: {}
+[41.780835] (-) TimerEvent: {}
+[41.882679] (-) TimerEvent: {}
+[41.984164] (-) TimerEvent: {}
+[42.086343] (-) TimerEvent: {}
+[42.188569] (-) TimerEvent: {}
+[42.290898] (-) TimerEvent: {}
+[42.393018] (-) TimerEvent: {}
+[42.495004] (-) TimerEvent: {}
+[43.875662] (-) TimerEvent: {}
+[43.977490] (-) TimerEvent: {}
+[44.079629] (-) TimerEvent: {}
+[44.181507] (-) TimerEvent: {}
+[44.283317] (-) TimerEvent: {}
+[44.385214] (-) TimerEvent: {}
+[44.487331] (-) TimerEvent: {}
+[44.589175] (-) TimerEvent: {}
+[44.691080] (-) TimerEvent: {}
+[44.792991] (-) TimerEvent: {}
+[44.894816] (-) TimerEvent: {}
+[44.996816] (-) TimerEvent: {}
+[45.098577] (-) TimerEvent: {}
+[45.200468] (-) TimerEvent: {}
+[45.302307] (-) TimerEvent: {}
+[45.404116] (-) TimerEvent: {}
+[45.505998] (-) TimerEvent: {}
+[45.607753] (-) TimerEvent: {}
+[45.709544] (-) TimerEvent: {}
+[45.811368] (-) TimerEvent: {}
+[45.913163] (-) TimerEvent: {}
+[46.015059] (-) TimerEvent: {}
+[46.116933] (-) TimerEvent: {}
+[46.156515] (theora_image_transport) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[46.217187] (-) TimerEvent: {}
+[46.319062] (-) TimerEvent: {}
+[46.420795] (-) TimerEvent: {}
+[46.522663] (-) TimerEvent: {}
+[46.624431] (-) TimerEvent: {}
+[46.726218] (-) TimerEvent: {}
+[46.778769] (theora_image_transport) StdoutLine: {'line': b'[ 24%] Built target theora_image_transport__rosidl_typesupport_cpp\n'}
+[46.826508] (-) TimerEvent: {}
+[46.928362] (-) TimerEvent: {}
+[47.030247] (-) TimerEvent: {}
+[47.132048] (-) TimerEvent: {}
+[47.234090] (-) TimerEvent: {}
+[47.336225] (-) TimerEvent: {}
+[47.438158] (-) TimerEvent: {}
+[47.539910] (-) TimerEvent: {}
+[47.657430] (-) TimerEvent: {}
+[47.759295] (-) TimerEvent: {}
+[47.861417] (-) TimerEvent: {}
+[47.963289] (-) TimerEvent: {}
+[48.065119] (-) TimerEvent: {}
+[48.167088] (-) TimerEvent: {}
+[48.268715] (-) TimerEvent: {}
+[48.370539] (-) TimerEvent: {}
+[48.419433] (theora_image_transport) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[48.470820] (-) TimerEvent: {}
+[48.572798] (-) TimerEvent: {}
+[48.674751] (-) TimerEvent: {}
+[48.776861] (-) TimerEvent: {}
+[48.879637] (-) TimerEvent: {}
+[48.906824] (theora_image_transport) StdoutLine: {'line': b'[ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp\n'}
+[48.979884] (-) TimerEvent: {}
+[49.030534] (theora_image_transport) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[49.080134] (-) TimerEvent: {}
+[49.181899] (-) TimerEvent: {}
+[49.283575] (-) TimerEvent: {}
+[49.385513] (-) TimerEvent: {}
+[49.487294] (-) TimerEvent: {}
+[49.589019] (-) TimerEvent: {}
+[49.690934] (-) TimerEvent: {}
+[49.793127] (-) TimerEvent: {}
+[49.894845] (-) TimerEvent: {}
+[49.996525] (-) TimerEvent: {}
+[50.098237] (-) TimerEvent: {}
+[50.200141] (-) TimerEvent: {}
+[50.301925] (-) TimerEvent: {}
+[50.403657] (-) TimerEvent: {}
+[50.505311] (-) TimerEvent: {}
+[50.607017] (-) TimerEvent: {}
+[50.708786] (-) TimerEvent: {}
+[50.810485] (-) TimerEvent: {}
+[50.912208] (-) TimerEvent: {}
+[51.013968] (-) TimerEvent: {}
+[51.115879] (-) TimerEvent: {}
+[51.217973] (-) TimerEvent: {}
+[51.319988] (-) TimerEvent: {}
+[51.422365] (-) TimerEvent: {}
+[51.524775] (-) TimerEvent: {}
+[51.626936] (-) TimerEvent: {}
+[51.729117] (-) TimerEvent: {}
+[51.831211] (-) TimerEvent: {}
+[51.933347] (-) TimerEvent: {}
+[52.035462] (-) TimerEvent: {}
+[52.137434] (-) TimerEvent: {}
+[52.239624] (-) TimerEvent: {}
+[52.341710] (-) TimerEvent: {}
+[52.443803] (-) TimerEvent: {}
+[52.544923] (-) TimerEvent: {}
+[52.661985] (-) TimerEvent: {}
+[52.763159] (-) TimerEvent: {}
+[52.819526] (theora_image_transport) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c.o\x1b[0m\n'}
+[52.863387] (-) TimerEvent: {}
+[52.965099] (-) TimerEvent: {}
+[53.066942] (-) TimerEvent: {}
+[53.168728] (-) TimerEvent: {}
+[53.270582] (-) TimerEvent: {}
+[53.312859] (theora_image_transport) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libtheora_image_transport__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[53.370861] (-) TimerEvent: {}
+[53.472085] (-) TimerEvent: {}
+[53.573215] (-) TimerEvent: {}
+[53.674271] (-) TimerEvent: {}
+[53.757111] (theora_image_transport) StdoutLine: {'line': b'[ 35%] Built target theora_image_transport__rosidl_typesupport_introspection_c\n'}
+[53.774520] (-) TimerEvent: {}
+[53.876098] (-) TimerEvent: {}
+[53.896436] (theora_image_transport) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[53.976385] (-) TimerEvent: {}
+[54.077640] (-) TimerEvent: {}
+[54.178811] (-) TimerEvent: {}
+[54.280126] (-) TimerEvent: {}
+[54.381302] (-) TimerEvent: {}
+[54.482470] (-) TimerEvent: {}
+[54.584240] (-) TimerEvent: {}
+[54.686206] (-) TimerEvent: {}
+[54.787962] (-) TimerEvent: {}
+[54.889900] (-) TimerEvent: {}
+[54.991736] (-) TimerEvent: {}
+[55.093653] (-) TimerEvent: {}
+[55.195442] (-) TimerEvent: {}
+[55.297181] (-) TimerEvent: {}
+[55.398974] (-) TimerEvent: {}
+[55.500659] (-) TimerEvent: {}
+[55.602390] (-) TimerEvent: {}
+[55.704192] (-) TimerEvent: {}
+[55.805885] (-) TimerEvent: {}
+[55.907574] (-) TimerEvent: {}
+[56.009293] (-) TimerEvent: {}
+[56.110942] (-) TimerEvent: {}
+[56.212573] (-) TimerEvent: {}
+[56.314290] (-) TimerEvent: {}
+[56.416030] (-) TimerEvent: {}
+[56.517944] (-) TimerEvent: {}
+[56.620468] (-) TimerEvent: {}
+[56.722388] (-) TimerEvent: {}
+[56.824280] (-) TimerEvent: {}
+[56.839476] (theora_image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_c.dir/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp.o\x1b[0m\n'}
+[56.924522] (-) TimerEvent: {}
+[57.026614] (-) TimerEvent: {}
+[57.128828] (-) TimerEvent: {}
+[57.211410] (theora_image_transport) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_c.so\x1b[0m\n'}
+[57.229126] (-) TimerEvent: {}
+[57.330993] (-) TimerEvent: {}
+[57.432913] (-) TimerEvent: {}
+[57.534772] (-) TimerEvent: {}
+[57.573198] (theora_image_transport) StdoutLine: {'line': b'[ 43%] Built target theora_image_transport__rosidl_typesupport_c\n'}
+[57.635032] (-) TimerEvent: {}
+[57.737267] (-) TimerEvent: {}
+[57.839435] (-) TimerEvent: {}
+[57.899695] (theora_image_transport) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o\x1b[0m\n'}
+[57.939700] (-) TimerEvent: {}
+[58.041673] (-) TimerEvent: {}
+[58.144516] (-) TimerEvent: {}
+[58.255889] (-) TimerEvent: {}
+[58.376401] (-) TimerEvent: {}
+[58.478244] (-) TimerEvent: {}
+[58.579904] (-) TimerEvent: {}
+[58.681618] (-) TimerEvent: {}
+[58.783573] (-) TimerEvent: {}
+[58.885667] (-) TimerEvent: {}
+[58.987401] (-) TimerEvent: {}
+[59.088641] (-) TimerEvent: {}
+[59.189904] (-) TimerEvent: {}
+[59.291032] (-) TimerEvent: {}
+[59.392787] (-) TimerEvent: {}
+[59.494624] (-) TimerEvent: {}
+[59.596354] (-) TimerEvent: {}
+[59.697963] (-) TimerEvent: {}
+[59.798927] (-) TimerEvent: {}
+[59.899988] (-) TimerEvent: {}
+[60.001129] (-) TimerEvent: {}
+[60.102614] (-) TimerEvent: {}
+[60.204444] (-) TimerEvent: {}
+[60.306763] (-) TimerEvent: {}
+[60.408903] (-) TimerEvent: {}
+[60.511289] (-) TimerEvent: {}
+[60.613476] (-) TimerEvent: {}
+[60.715744] (-) TimerEvent: {}
+[60.816764] (-) TimerEvent: {}
+[60.917921] (-) TimerEvent: {}
+[61.020002] (-) TimerEvent: {}
+[61.121847] (-) TimerEvent: {}
+[61.223423] (-) TimerEvent: {}
+[61.325246] (-) TimerEvent: {}
+[61.427088] (-) TimerEvent: {}
+[61.529052] (-) TimerEvent: {}
+[61.630831] (-) TimerEvent: {}
+[61.732758] (-) TimerEvent: {}
+[61.834811] (-) TimerEvent: {}
+[61.936583] (-) TimerEvent: {}
+[62.038893] (-) TimerEvent: {}
+[62.140987] (-) TimerEvent: {}
+[62.242970] (-) TimerEvent: {}
+[62.344987] (-) TimerEvent: {}
+[62.447183] (-) TimerEvent: {}
+[62.549268] (-) TimerEvent: {}
+[62.651582] (-) TimerEvent: {}
+[62.753880] (-) TimerEvent: {}
+[62.854939] (-) TimerEvent: {}
+[62.957119] (-) TimerEvent: {}
+[63.059063] (-) TimerEvent: {}
+[63.160877] (-) TimerEvent: {}
+[63.262975] (-) TimerEvent: {}
+[63.365020] (-) TimerEvent: {}
+[63.467336] (-) TimerEvent: {}
+[63.569234] (-) TimerEvent: {}
+[63.671204] (-) TimerEvent: {}
+[63.773363] (-) TimerEvent: {}
+[63.875368] (-) TimerEvent: {}
+[63.977120] (-) TimerEvent: {}
+[64.079004] (-) TimerEvent: {}
+[64.181280] (-) TimerEvent: {}
+[64.283128] (-) TimerEvent: {}
+[64.385057] (-) TimerEvent: {}
+[64.486933] (-) TimerEvent: {}
+[64.588818] (-) TimerEvent: {}
+[64.691766] (-) TimerEvent: {}
+[64.793938] (-) TimerEvent: {}
+[64.895792] (-) TimerEvent: {}
+[64.997542] (-) TimerEvent: {}
+[65.099499] (-) TimerEvent: {}
+[65.201287] (-) TimerEvent: {}
+[65.303112] (-) TimerEvent: {}
+[65.404893] (-) TimerEvent: {}
+[65.506897] (-) TimerEvent: {}
+[65.609519] (-) TimerEvent: {}
+[65.711487] (-) TimerEvent: {}
+[65.813444] (-) TimerEvent: {}
+[65.915759] (-) TimerEvent: {}
+[66.018281] (-) TimerEvent: {}
+[66.120476] (-) TimerEvent: {}
+[66.222578] (-) TimerEvent: {}
+[66.324975] (-) TimerEvent: {}
+[66.427685] (-) TimerEvent: {}
+[66.529146] (-) TimerEvent: {}
+[66.631390] (-) TimerEvent: {}
+[66.734375] (-) TimerEvent: {}
+[66.836159] (-) TimerEvent: {}
+[66.938641] (-) TimerEvent: {}
+[67.040276] (-) TimerEvent: {}
+[69.313909] (-) TimerEvent: {}
+[107.891169] (-) TimerEvent: {}
+[250.590847] (-) TimerEvent: {}
+[431.048110] (-) TimerEvent: {}
+[449.252757] (-) TimerEvent: {}
+[449.356570] (-) TimerEvent: {}
+[449.458447] (-) TimerEvent: {}
+[449.559429] (-) TimerEvent: {}
+[449.660400] (-) TimerEvent: {}
+[449.771530] (-) TimerEvent: {}
+[468.603834] (-) TimerEvent: {}
+[596.400626] (-) TimerEvent: {}
+[616.468471] (-) TimerEvent: {}
+[742.957657] (-) TimerEvent: {}
+[943.931475] (-) TimerEvent: {}
+[1122.540543] (-) TimerEvent: {}
+[1668.585909] (-) TimerEvent: {}
+[1668.655285] (turtlebot3_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:76: CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o] Interrupt\n'}
+[1668.671403] (theora_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Interrupt\n'}
+[1668.702823] (-) TimerEvent: {}
+[1668.703355] (compressed_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_image_transport.dir/build.make:104: CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o] Interrupt\n'}
+[1668.717015] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/compressed_depth_image_transport.dir/build.make:104: CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o] Interrupt\n'}
+[1668.734232] (theora_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Interrupt\n'}
+[1668.739165] (theora_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1668.741863] (turtlebot3_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtlebot3_node_lib.dir/all] Interrupt\n'}
+[1668.744670] (turtlebot3_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1668.745274] (compressed_depth_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_depth_image_transport.dir/all] Interrupt\n'}
+[1668.745975] (compressed_depth_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1668.746612] (compressed_image_transport) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/compressed_image_transport.dir/all] Interrupt\n'}
+[1668.747170] (compressed_image_transport) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1668.747641] (compressed_depth_image_transport) CommandEnded: {'returncode': -2}
+[1668.760319] (theora_image_transport) CommandEnded: {'returncode': -2}
+[1668.772594] (turtlebot3_node) CommandEnded: {'returncode': -2}
+[1668.786837] (compressed_image_transport) CommandEnded: {'returncode': -2}
+[1668.803094] (-) TimerEvent: {}
+[1668.904298] (-) TimerEvent: {}
+[1669.005531] (-) TimerEvent: {}
+[1669.106802] (-) TimerEvent: {}
+[1669.207796] (-) TimerEvent: {}
+[1669.308797] (-) TimerEvent: {}
+[1669.409808] (-) TimerEvent: {}
+[1669.510768] (-) TimerEvent: {}
+[1669.611829] (-) TimerEvent: {}
+[1669.712802] (-) TimerEvent: {}
+[1669.813627] (-) TimerEvent: {}
+[1669.914587] (-) TimerEvent: {}
+[1670.015513] (-) TimerEvent: {}
+[1670.120495] (-) TimerEvent: {}
+[1670.225188] (-) TimerEvent: {}
+[1670.326710] (-) TimerEvent: {}
+[1670.429905] (-) TimerEvent: {}
+[1670.531797] (-) TimerEvent: {}
+[1670.584315] (compressed_image_transport) JobEnded: {'identifier': 'compressed_image_transport', 'rc': 'SIGINT'}
+[1670.629819] (compressed_depth_image_transport) JobEnded: {'identifier': 'compressed_depth_image_transport', 'rc': 'SIGINT'}
+[1670.631831] (-) TimerEvent: {}
+[1670.635346] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 'SIGINT'}
+[1670.732062] (-) TimerEvent: {}
+[1670.772769] (theora_image_transport) JobEnded: {'identifier': 'theora_image_transport', 'rc': 'SIGINT'}
+[1670.776766] (cv_camera) JobSkipped: {'identifier': 'cv_camera'}
+[1670.777092] (ld08_driver) JobSkipped: {'identifier': 'ld08_driver'}
+[1670.777266] (rpi_temprature) JobSkipped: {'identifier': 'rpi_temprature'}
+[1670.777485] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[1670.778036] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[1670.778356] (image_transport_plugins) JobSkipped: {'identifier': 'image_transport_plugins'}
+[1670.778495] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[1670.778642] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[1670.778852] (usb_cam) JobSkipped: {'identifier': 'usb_cam'}
+[1670.778989] (-) EventReactorShutdown: {}

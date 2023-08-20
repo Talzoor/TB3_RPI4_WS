@@ -1,0 +1,39 @@
+[0.059s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3
+[0.327s] -- The C compiler identification is GNU 11.3.0
+[0.617s] -- The CXX compiler identification is GNU 11.3.0
+[0.650s] -- Detecting C compiler ABI info
+[0.985s] -- Detecting C compiler ABI info - done
+[1.015s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.016s] -- Detecting C compile features
+[1.018s] -- Detecting C compile features - done
+[1.041s] -- Detecting CXX compiler ABI info
+[1.858s] -- Detecting CXX compiler ABI info - done
+[1.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.907s] -- Detecting CXX compile features
+[1.910s] -- Detecting CXX compile features - done
+[1.948s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.381s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.193s] -- Configuring done
+[5.226s] -- Generating done
+[5.236s] -- Build files have been written to: /home/t-pi/TB3_RPI4_WS/build/turtlebot3
+[5.263s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3
+[5.283s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3 -- -j4 -l4
+[5.764s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3 -- -j4 -l4
+[5.992s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3
+[6.082s] -- Install configuration: ""
+[6.084s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+[6.088s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+[6.096s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+[6.097s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+[6.099s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/environment/path.sh
+[6.100s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/environment/path.dsv
+[6.102s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/local_setup.bash
+[6.104s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/local_setup.sh
+[6.118s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/local_setup.zsh
+[6.120s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/local_setup.dsv
+[6.122s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.dsv
+[6.134s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+[6.137s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+[6.138s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+[6.140s] -- Installing: /home/t-pi/TB3_RPI4_WS/install/turtlebot3/share/turtlebot3/package.xml
+[6.167s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description:/opt/ros/humble PYTHONPATH=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3
