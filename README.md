@@ -39,5 +39,11 @@ cd ~/TB3_RPI4_WS; git add *; git commit -m "commit message"; git push
 
 ### TB3
 
+```bash
+ros2 launch turtlebot3_bringup robot.launch.py 
+```
 
 ### PC
+```bash
+ros2 run turtlebot3_teleop teleop_keyboard 
+```
