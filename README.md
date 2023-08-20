@@ -35,11 +35,6 @@ or copy as one line:
 cd ~/TB3_RPI4_WS; git add *; git commit -m "commit message"; git push
 ```
 
-
-
-
-
-
 ## check turtlebot <--> pc, ros connection
 
 ### TB3
@@ -52,3 +47,16 @@ ros2 launch turtlebot3_bringup robot.launch.py
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
+
+## run image stream
+
+### TB3
+```bash
+ros2 run usb_cam usb_cam_node_exe --ros-args --aprams-file ~/.ros/camera_info/params.yaml
+```
+
+### PC
+```bash
+ros2 run web_video_server web_video_server
+```
+
