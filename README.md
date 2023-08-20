@@ -8,6 +8,7 @@ to rebuild it:
 	colcon build			# can take ~20min for clean build
 
 github push:
+
 	cd ~/TB3_RPI4_WS
 
 	git add *
