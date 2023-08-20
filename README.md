@@ -9,7 +9,7 @@ located at ~/TB3_RPI4_WS/
 cd ~/TB3_RPI4_WS
 #rm -r build install log 		# if you wish to clean before building from scratch
 colcon build --parallel-workers 2 	# can take ~20min for clean build, rpi has 4 cores, using only 2 will allow ssh and such
-...
+```
 
 ## github push
 
