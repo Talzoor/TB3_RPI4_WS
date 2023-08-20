@@ -20,4 +20,5 @@ github push:
 or copy as one line:
 
 	cd ~/TB3_RPI4_WS; git add *; git commit -m "commit message"; git push
+	remark
 
