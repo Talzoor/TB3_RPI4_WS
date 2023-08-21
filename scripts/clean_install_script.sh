@@ -25,7 +25,9 @@ echo -e "\nInstall ROS2:"
 source ~/TB3_RPI4_WS/scripts/ROS2_installation.sh
 
 echo -e "\nInstall OpenCV:"
-
+sudo apt-get install -y python3-opencv
+sudo apt install -y python3-numpy
+sudo apt install -y libboost-python-dev
 
 echo -e "\nInstall git and credentials:"
 sudo apt-get -y install git

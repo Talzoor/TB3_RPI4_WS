@@ -27,6 +27,7 @@ echo -e "\nInstalling base version:"
 sudo apt install -y ros-humble-ros-base
 pip install -U colcon-common-extensions
 pip install -U colcon-argcomplete
+sudo apt install -y python3-colcon-clean 
 
 # Adding auto complete to colcon
 isInFile=$(cat ~/.bashrc | grep -c "source ~/.local/share/colcon_argcomplete/hook/colcon-argcomplete.bash")
