@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001901] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002582] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.006729] (-) JobUnselected: {'identifier': 'cv_camera'}
+[0.006959] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.007275] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.007463] (-) JobUnselected: {'identifier': 'rpi_temprature'}
+[0.007574] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.007685] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.007823] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.007936] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.008036] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.008172] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.012035] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.012373] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.012600] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.096568] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.097806] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_node', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.0.100 45466 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi/TB3_RPI4_WS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('PS4', '+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/home/t-pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 45466 192.168.0.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.111433] (-) TimerEvent: {}
+[0.212180] (-) TimerEvent: {}
+[0.313041] (-) TimerEvent: {}
+[0.379947] (turtlebot3_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.413226] (-) TimerEvent: {}
+[0.514197] (-) TimerEvent: {}
+[0.615131] (-) TimerEvent: {}
+[0.651244] (turtlebot3_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.685995] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.715319] (-) TimerEvent: {}
+[0.816430] (-) TimerEvent: {}
+[0.917311] (-) TimerEvent: {}
+[1.014051] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.017444] (-) TimerEvent: {}
+[1.044262] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.045293] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.047014] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.060222] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.117746] (-) TimerEvent: {}
+[1.219070] (-) TimerEvent: {}
+[1.319889] (-) TimerEvent: {}
+[1.420765] (-) TimerEvent: {}
+[1.424229] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.455264] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.456615] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.458657] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.481490] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.520955] (-) TimerEvent: {}
+[1.621714] (-) TimerEvent: {}
+[1.723120] (-) TimerEvent: {}
+[1.824207] (-) TimerEvent: {}
+[1.924995] (-) TimerEvent: {}
+[2.025741] (-) TimerEvent: {}
+[2.126508] (-) TimerEvent: {}
+[2.227245] (-) TimerEvent: {}
+[2.317987] (turtlebot3_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.327450] (-) TimerEvent: {}
+[2.428671] (-) TimerEvent: {}
+[2.529414] (-) TimerEvent: {}
+[2.630299] (-) TimerEvent: {}
+[2.731027] (-) TimerEvent: {}
+[2.832218] (-) TimerEvent: {}
+[2.933377] (-) TimerEvent: {}
+[3.034596] (-) TimerEvent: {}
+[3.135716] (-) TimerEvent: {}
+[3.236689] (-) TimerEvent: {}
+[3.337853] (-) TimerEvent: {}
+[3.438990] (-) TimerEvent: {}
+[3.540119] (-) TimerEvent: {}
+[3.641320] (-) TimerEvent: {}
+[3.742522] (-) TimerEvent: {}
+[3.843691] (-) TimerEvent: {}
+[3.944841] (-) TimerEvent: {}
+[4.046008] (-) TimerEvent: {}
+[4.147153] (-) TimerEvent: {}
+[4.248121] (-) TimerEvent: {}
+[4.349272] (-) TimerEvent: {}
+[4.450437] (-) TimerEvent: {}
+[4.551597] (-) TimerEvent: {}
+[4.652724] (-) TimerEvent: {}
+[4.753838] (-) TimerEvent: {}
+[4.854978] (-) TimerEvent: {}
+[4.956135] (-) TimerEvent: {}
+[5.057254] (-) TimerEvent: {}
+[5.158396] (-) TimerEvent: {}
+[5.259501] (-) TimerEvent: {}
+[5.360600] (-) TimerEvent: {}
+[5.461688] (-) TimerEvent: {}
+[5.562811] (-) TimerEvent: {}
+[5.663928] (-) TimerEvent: {}
+[5.765061] (-) TimerEvent: {}
+[5.866272] (-) TimerEvent: {}
+[5.967436] (-) TimerEvent: {}
+[6.068602] (-) TimerEvent: {}
+[6.170204] (-) TimerEvent: {}
+[6.271346] (-) TimerEvent: {}
+[6.372481] (-) TimerEvent: {}
+[6.473680] (-) TimerEvent: {}
+[6.574890] (-) TimerEvent: {}
+[6.676041] (-) TimerEvent: {}
+[6.777137] (-) TimerEvent: {}
+[6.878069] (-) TimerEvent: {}
+[6.978783] (-) TimerEvent: {}
+[7.001813] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[7.002703] (turtlebot3_node) StderrLine: {'line': b'  By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.003192] (turtlebot3_node) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.003597] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk", but CMake did not find one.\n'}
+[7.003969] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[7.004397] (turtlebot3_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "dynamixel_sdk"\n'}
+[7.004819] (turtlebot3_node) StderrLine: {'line': b'  with any of the following names:\n'}
+[7.005259] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[7.005802] (turtlebot3_node) StderrLine: {'line': b'    dynamixel_sdkConfig.cmake\n'}
+[7.006323] (turtlebot3_node) StderrLine: {'line': b'    dynamixel_sdk-config.cmake\n'}
+[7.006980] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[7.007977] (turtlebot3_node) StderrLine: {'line': b'  Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set\n'}
+[7.009037] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk_DIR" to a directory containing one of the above files.  If\n'}
+[7.009746] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk" provides a separate development package or SDK, be sure it\n'}
+[7.010428] (turtlebot3_node) StderrLine: {'line': b'  has been installed.\n'}
+[7.011063] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[7.011656] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[7.012543] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.013174] (turtlebot3_node) StdoutLine: {'line': b'See also "/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node/CMakeFiles/CMakeOutput.log".\n'}
+[7.018435] (turtlebot3_node) CommandEnded: {'returncode': 1}
+[7.084046] (-) TimerEvent: {}
+[7.185376] (-) TimerEvent: {}
+[9.528200] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 1}
+[9.530017] (-) TimerEvent: {}
+[9.540229] (-) EventReactorShutdown: {}

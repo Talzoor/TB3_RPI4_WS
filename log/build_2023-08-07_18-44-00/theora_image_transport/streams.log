@@ -1,0 +1,22 @@
+[0.170s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport
+[0.236s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.353s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.353s]   By not providing "Findimage_transport.cmake" in CMAKE_MODULE_PATH this
+[1.354s]   project has asked CMake to find a package configuration file provided by
+[1.368s]   "image_transport", but CMake did not find one.
+[1.370s] 
+[1.371s]   Could not find a package configuration file provided by "image_transport"
+[1.372s]   with any of the following names:
+[1.372s] 
+[1.373s]     image_transportConfig.cmake
+[1.374s]     image_transport-config.cmake
+[1.375s] 
+[1.377s]   Add the installation prefix of "image_transport" to CMAKE_PREFIX_PATH or
+[1.377s]   set "image_transport_DIR" to a directory containing one of the above files.
+[1.378s]   If "image_transport" provides a separate development package or SDK, be
+[1.393s]   sure it has been installed.
+[1.395s] 
+[1.396s] [0m
+[1.397s] -- Configuring incomplete, errors occurred!
+[1.397s] See also "/home/t-pi/TB3_RPI4_WS/build/theora_image_transport/CMakeFiles/CMakeOutput.log".
+[1.431s] Invoked command in '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport

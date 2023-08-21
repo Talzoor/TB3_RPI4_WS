@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.002076] (compressed_depth_image_transport) JobQueued: {'identifier': 'compressed_depth_image_transport', 'dependencies': OrderedDict()}
+[0.006412] (compressed_image_transport) JobQueued: {'identifier': 'compressed_image_transport', 'dependencies': OrderedDict()}
+[0.006644] (cv_camera) JobQueued: {'identifier': 'cv_camera', 'dependencies': OrderedDict()}
+[0.006952] (rpi_temprature) JobQueued: {'identifier': 'rpi_temprature', 'dependencies': OrderedDict()}
+[0.007130] (theora_image_transport) JobQueued: {'identifier': 'theora_image_transport', 'dependencies': OrderedDict()}
+[0.007258] (image_transport_plugins) JobQueued: {'identifier': 'image_transport_plugins', 'dependencies': OrderedDict([('compressed_depth_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'), ('theora_image_transport', '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport')])}
+[0.007396] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict([('compressed_depth_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'), ('theora_image_transport', '/home/t-pi/TB3_RPI4_WS/install/theora_image_transport'), ('image_transport_plugins', '/home/t-pi/TB3_RPI4_WS/install/image_transport_plugins')])}
+[0.007506] (compressed_depth_image_transport) JobStarted: {'identifier': 'compressed_depth_image_transport'}
+[0.103601] (-) TimerEvent: {}
+[0.122031] (compressed_image_transport) JobStarted: {'identifier': 'compressed_image_transport'}
+[0.185735] (theora_image_transport) JobStarted: {'identifier': 'theora_image_transport'}
+[0.206980] (-) TimerEvent: {}
+[0.247939] (cv_camera) JobStarted: {'identifier': 'cv_camera'}
+[0.308725] (-) TimerEvent: {}
+[0.318889] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'cmake'}
+[0.319824] (compressed_depth_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_depth_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/compressed_depth_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.0.100 45466 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi/TB3_RPI4_WS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/home/t-pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 45466 192.168.0.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.338478] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'cmake'}
+[0.339603] (compressed_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/compressed_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/compressed_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.0.100 45466 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi/TB3_RPI4_WS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/home/t-pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 45466 192.168.0.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.350943] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'cmake'}
+[0.351908] (theora_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/theora_image_transport'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.0.100 45466 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi/TB3_RPI4_WS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/home/t-pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/theora_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 45466 192.168.0.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.373344] (cv_camera) JobProgress: {'identifier': 'cv_camera', 'progress': 'cmake'}
+[0.374923] (cv_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/t-pi/TB3_RPI4_WS/src/cv_camera', '-DCMAKE_INSTALL_PREFIX=/home/t-pi/TB3_RPI4_WS/install/cv_camera'], 'cwd': '/home/t-pi/TB3_RPI4_WS/build/cv_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-pi'), ('SSH_CLIENT', '192.168.0.100 45466 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/t-pi'), ('OLDPWD', '/home/t-pi/TB3_RPI4_WS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 't-pi'), ('_', '/home/t-pi/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/t-pi/TB3_RPI4_WS/build/cv_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 45466 192.168.0.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.409032] (-) TimerEvent: {}
+[0.510215] (-) TimerEvent: {}
+[0.611418] (-) TimerEvent: {}
+[0.712661] (-) TimerEvent: {}
+[0.813558] (-) TimerEvent: {}
+[0.914836] (-) TimerEvent: {}
+[1.015968] (-) TimerEvent: {}
+[1.117033] (-) TimerEvent: {}
+[1.224255] (-) TimerEvent: {}
+[1.325380] (-) TimerEvent: {}
+[1.426545] (-) TimerEvent: {}
+[1.527534] (-) TimerEvent: {}
+[1.628681] (-) TimerEvent: {}
+[1.716425] (compressed_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.717712] (compressed_depth_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.718353] (theora_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.719334] (cv_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.728868] (-) TimerEvent: {}
+[1.830032] (-) TimerEvent: {}
+[1.930999] (-) TimerEvent: {}
+[2.032084] (-) TimerEvent: {}
+[2.133344] (-) TimerEvent: {}
+[2.235094] (-) TimerEvent: {}
+[2.337178] (-) TimerEvent: {}
+[2.438987] (-) TimerEvent: {}
+[2.540615] (-) TimerEvent: {}
+[2.621060] (compressed_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.622575] (cv_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.623261] (compressed_depth_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.625911] (theora_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.640738] (-) TimerEvent: {}
+[2.681455] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.682525] (cv_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.683752] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.686181] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.740965] (-) TimerEvent: {}
+[2.841992] (-) TimerEvent: {}
+[2.942969] (-) TimerEvent: {}
+[3.044978] (-) TimerEvent: {}
+[3.147624] (-) TimerEvent: {}
+[3.168158] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.169330] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.171872] (cv_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.175991] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.197768] (compressed_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.200690] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.201435] (theora_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.203345] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.204158] (cv_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.204836] (cv_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.206433] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.207683] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.208800] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.209726] (theora_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.210260] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.212910] (cv_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.229472] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.230198] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.230751] (cv_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.231589] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.247838] (-) TimerEvent: {}
+[3.349384] (-) TimerEvent: {}
+[3.451654] (-) TimerEvent: {}
+[3.554206] (-) TimerEvent: {}
+[3.656682] (-) TimerEvent: {}
+[3.711412] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.712383] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.722346] (cv_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.723059] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.742336] (compressed_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.743469] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.744344] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.745312] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.746281] (compressed_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.747112] (cv_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.747905] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.748782] (cv_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.751195] (cv_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.756791] (-) TimerEvent: {}
+[3.763036] (theora_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.765213] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.768079] (theora_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.786816] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.787783] (cv_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.788460] (compressed_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.791658] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.857002] (-) TimerEvent: {}
+[3.958544] (-) TimerEvent: {}
+[4.060667] (-) TimerEvent: {}
+[4.164738] (-) TimerEvent: {}
+[4.266673] (-) TimerEvent: {}
+[4.368217] (-) TimerEvent: {}
+[4.469642] (-) TimerEvent: {}
+[4.571737] (-) TimerEvent: {}
+[4.674289] (-) TimerEvent: {}
+[4.776005] (-) TimerEvent: {}
+[4.877537] (-) TimerEvent: {}
+[4.979188] (-) TimerEvent: {}
+[5.080782] (-) TimerEvent: {}
+[5.162816] (theora_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.163512] (cv_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.164017] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.164436] (compressed_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.180987] (-) TimerEvent: {}
+[5.282050] (-) TimerEvent: {}
+[5.383185] (-) TimerEvent: {}
+[5.484235] (-) TimerEvent: {}
+[5.585723] (-) TimerEvent: {}
+[5.688369] (-) TimerEvent: {}
+[5.789333] (-) TimerEvent: {}
+[5.890206] (-) TimerEvent: {}
+[5.991109] (-) TimerEvent: {}
+[6.004358] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[6.005091] (compressed_depth_image_transport) StderrLine: {'line': b'  By not providing "Findimage_transport.cmake" in CMAKE_MODULE_PATH this\n'}
+[6.006560] (compressed_depth_image_transport) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[6.007297] (compressed_depth_image_transport) StderrLine: {'line': b'  "image_transport", but CMake did not find one.\n'}
+[6.008249] (compressed_depth_image_transport) StderrLine: {'line': b'\n'}
+[6.010063] (compressed_depth_image_transport) StderrLine: {'line': b'  Could not find a package configuration file provided by "image_transport"\n'}
+[6.012997] (compressed_depth_image_transport) StderrLine: {'line': b'  with any of the following names:\n'}
+[6.015865] (compressed_depth_image_transport) StderrLine: {'line': b'\n'}
+[6.026042] (compressed_depth_image_transport) StderrLine: {'line': b'    image_transportConfig.cmake\n'}
+[6.027217] (compressed_depth_image_transport) StderrLine: {'line': b'    image_transport-config.cmake\n'}
+[6.028612] (compressed_depth_image_transport) StderrLine: {'line': b'\n'}
+[6.035632] (compressed_depth_image_transport) StderrLine: {'line': b'  Add the installation prefix of "image_transport" to CMAKE_PREFIX_PATH or\n'}
+[6.036554] (compressed_depth_image_transport) StderrLine: {'line': b'  set "image_transport_DIR" to a directory containing one of the above files.\n'}
+[6.038033] (compressed_depth_image_transport) StderrLine: {'line': b'  If "image_transport" provides a separate development package or SDK, be\n'}
+[6.038851] (compressed_depth_image_transport) StderrLine: {'line': b'  sure it has been installed.\n'}
+[6.040416] (compressed_depth_image_transport) StderrLine: {'line': b'\n'}
+[6.043793] (compressed_depth_image_transport) StderrLine: {'line': b'\x1b[0m\n'}
+[6.044642] (compressed_image_transport) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[6.045967] (compressed_image_transport) StderrLine: {'line': b'  By not providing "Findimage_transport.cmake" in CMAKE_MODULE_PATH this\n'}
+[6.046710] (compressed_image_transport) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[6.051400] (compressed_image_transport) StderrLine: {'line': b'  "image_transport", but CMake did not find one.\n'}
+[6.054811] (compressed_image_transport) StderrLine: {'line': b'\n'}
+[6.056819] (compressed_image_transport) StderrLine: {'line': b'  Could not find a package configuration file provided by "image_transport"\n'}
+[6.058107] (compressed_image_transport) StderrLine: {'line': b'  with any of the following names:\n'}
+[6.059649] (compressed_image_transport) StderrLine: {'line': b'\n'}
+[6.064188] (compressed_image_transport) StderrLine: {'line': b'    image_transportConfig.cmake\n'}
+[6.065021] (compressed_image_transport) StderrLine: {'line': b'    image_transport-config.cmake\n'}
+[6.065962] (compressed_image_transport) StderrLine: {'line': b'\n'}
+[6.066739] (compressed_image_transport) StderrLine: {'line': b'  Add the installation prefix of "image_transport" to CMAKE_PREFIX_PATH or\n'}
+[6.067386] (compressed_image_transport) StderrLine: {'line': b'  set "image_transport_DIR" to a directory containing one of the above files.\n'}
+[6.068102] (compressed_image_transport) StderrLine: {'line': b'  If "image_transport" provides a separate development package or SDK, be\n'}
+[6.068750] (compressed_image_transport) StderrLine: {'line': b'  sure it has been installed.\n'}
+[6.069576] (compressed_image_transport) StderrLine: {'line': b'\n'}
+[6.070312] (compressed_image_transport) StderrLine: {'line': b'\x1b[0m\n'}
+[6.071171] (theora_image_transport) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[6.072323] (theora_image_transport) StderrLine: {'line': b'  By not providing "Findimage_transport.cmake" in CMAKE_MODULE_PATH this\n'}
+[6.072989] (theora_image_transport) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[6.073671] (theora_image_transport) StderrLine: {'line': b'  "image_transport", but CMake did not find one.\n'}
+[6.074294] (theora_image_transport) StderrLine: {'line': b'\n'}
+[6.074957] (theora_image_transport) StderrLine: {'line': b'  Could not find a package configuration file provided by "image_transport"\n'}
+[6.075614] (theora_image_transport) StderrLine: {'line': b'  with any of the following names:\n'}
+[6.076361] (theora_image_transport) StderrLine: {'line': b'\n'}
+[6.077402] (theora_image_transport) StderrLine: {'line': b'    image_transportConfig.cmake\n'}
+[6.079245] (theora_image_transport) StderrLine: {'line': b'    image_transport-config.cmake\n'}
+[6.079847] (theora_image_transport) StderrLine: {'line': b'\n'}
+[6.080488] (theora_image_transport) StderrLine: {'line': b'  Add the installation prefix of "image_transport" to CMAKE_PREFIX_PATH or\n'}
+[6.081054] (theora_image_transport) StderrLine: {'line': b'  set "image_transport_DIR" to a directory containing one of the above files.\n'}
+[6.081817] (theora_image_transport) StderrLine: {'line': b'  If "image_transport" provides a separate development package or SDK, be\n'}
+[6.082565] (theora_image_transport) StderrLine: {'line': b'  sure it has been installed.\n'}
+[6.083208] (theora_image_transport) StderrLine: {'line': b'\n'}
+[6.083992] (theora_image_transport) StderrLine: {'line': b'\x1b[0m\n'}
+[6.084922] (compressed_image_transport) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.102611] (-) TimerEvent: {}
+[6.105239] (compressed_image_transport) StdoutLine: {'line': b'See also "/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport/CMakeFiles/CMakeOutput.log".\n'}
+[6.106178] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.113342] (compressed_depth_image_transport) StdoutLine: {'line': b'See also "/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport/CMakeFiles/CMakeOutput.log".\n'}
+[6.114366] (theora_image_transport) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.116259] (theora_image_transport) StdoutLine: {'line': b'See also "/home/t-pi/TB3_RPI4_WS/build/theora_image_transport/CMakeFiles/CMakeOutput.log".\n'}
+[6.117400] (cv_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.119084] (cv_camera) StdoutLine: {'line': b'See also "/home/t-pi/TB3_RPI4_WS/build/cv_camera/CMakeFiles/CMakeOutput.log".\n'}
+[6.120134] (cv_camera) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[6.123607] (cv_camera) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.129090] (cv_camera) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[6.129652] (cv_camera) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.130758] (cv_camera) StderrLine: {'line': b'\n'}
+[6.131547] (cv_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" (requested\n'}
+[6.132238] (cv_camera) StderrLine: {'line': b'  version 4) with any of the following names:\n'}
+[6.137829] (cv_camera) StderrLine: {'line': b'\n'}
+[6.138594] (cv_camera) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[6.139195] (cv_camera) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[6.147935] (cv_camera) StderrLine: {'line': b'\n'}
+[6.148617] (cv_camera) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[6.148999] (cv_camera) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[6.149497] (cv_camera) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[6.150093] (cv_camera) StderrLine: {'line': b'  installed.\n'}
+[6.150875] (cv_camera) StderrLine: {'line': b'\n'}
+[6.151430] (cv_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[6.152007] (theora_image_transport) CommandEnded: {'returncode': 1}
+[6.153221] (compressed_image_transport) CommandEnded: {'returncode': 1}
+[6.155139] (cv_camera) CommandEnded: {'returncode': 1}
+[6.156941] (compressed_depth_image_transport) CommandEnded: {'returncode': 1}
+[6.202791] (-) TimerEvent: {}
+[6.304879] (-) TimerEvent: {}
+[6.406167] (-) TimerEvent: {}
+[6.507347] (-) TimerEvent: {}
+[6.608790] (-) TimerEvent: {}
+[6.709855] (-) TimerEvent: {}
+[6.810872] (-) TimerEvent: {}
+[6.911887] (-) TimerEvent: {}
+[7.012939] (-) TimerEvent: {}
+[7.113983] (-) TimerEvent: {}
+[7.214983] (-) TimerEvent: {}
+[7.316033] (-) TimerEvent: {}
+[7.417104] (-) TimerEvent: {}
+[7.518155] (-) TimerEvent: {}
+[7.619145] (-) TimerEvent: {}
+[7.720138] (-) TimerEvent: {}
+[7.821116] (-) TimerEvent: {}
+[7.922126] (-) TimerEvent: {}
+[8.023116] (-) TimerEvent: {}
+[8.124091] (-) TimerEvent: {}
+[8.225104] (-) TimerEvent: {}
+[8.326181] (-) TimerEvent: {}
+[8.427180] (-) TimerEvent: {}
+[8.528152] (-) TimerEvent: {}
+[8.629202] (-) TimerEvent: {}
+[8.730192] (-) TimerEvent: {}
+[8.831207] (-) TimerEvent: {}
+[8.932212] (-) TimerEvent: {}
+[9.033466] (-) TimerEvent: {}
+[9.091773] (theora_image_transport) JobEnded: {'identifier': 'theora_image_transport', 'rc': 1}
+[9.138694] (-) TimerEvent: {}
+[9.154176] (compressed_image_transport) JobEnded: {'identifier': 'compressed_image_transport', 'rc': 1}
+[9.212745] (cv_camera) JobEnded: {'identifier': 'cv_camera', 'rc': 1}
+[9.215858] (compressed_depth_image_transport) JobEnded: {'identifier': 'compressed_depth_image_transport', 'rc': 'SIGINT'}
+[9.227084] (rpi_temprature) JobSkipped: {'identifier': 'rpi_temprature'}
+[9.227419] (image_transport_plugins) JobSkipped: {'identifier': 'image_transport_plugins'}
+[9.227596] (usb_cam) JobSkipped: {'identifier': 'usb_cam'}
+[9.227758] (-) EventReactorShutdown: {}

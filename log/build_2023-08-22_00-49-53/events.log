@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.001858] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.005946] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.006163] (-) JobUnselected: {'identifier': 'cv_camera'}
+[0.006499] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.006692] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.006802] (-) JobUnselected: {'identifier': 'rpi_temprature'}
+[0.006911] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.007052] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.007156] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.007253] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.007389] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.011305] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.011537] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.011867] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_description', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_description'), ('turtlebot3_example', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example'), ('turtlebot3_node', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/t-pi/TB3_RPI4_WS/install/turtlebot3_bringup')])}
+[0.012135] (turtlebot3) JobStarted: {'identifier': 'turtlebot3'}
+[0.099511] (-) TimerEvent: {}
+[0.162727] (turtlebot3) JobEnded: {'identifier': 'turtlebot3', 'rc': 1}
+[0.174189] (-) EventReactorShutdown: {}

@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.001714] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002413] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.006606] (-) JobUnselected: {'identifier': 'cv_camera'}
+[0.006849] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.007173] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.007356] (-) JobUnselected: {'identifier': 'rpi_temprature'}
+[0.007461] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.007568] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.007707] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.007817] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.007916] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.011895] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.012125] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.012449] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.012707] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.102526] (-) TimerEvent: {}
+[0.203202] (-) TimerEvent: {}
+[0.303984] (-) TimerEvent: {}
+[0.404720] (-) TimerEvent: {}
+[0.505662] (-) TimerEvent: {}
+[0.606386] (-) TimerEvent: {}
+[0.707093] (-) TimerEvent: {}
+[0.807828] (-) TimerEvent: {}
+[0.908531] (-) TimerEvent: {}
+[1.009321] (-) TimerEvent: {}
+[1.110039] (-) TimerEvent: {}
+[1.210879] (-) TimerEvent: {}
+[1.312203] (-) TimerEvent: {}
+[1.413563] (-) TimerEvent: {}
+[1.514287] (-) TimerEvent: {}
+[1.615001] (-) TimerEvent: {}
+[1.715870] (-) TimerEvent: {}
+[1.816558] (-) TimerEvent: {}
+[1.917348] (-) TimerEvent: {}
+[2.018110] (-) TimerEvent: {}
+[2.118874] (-) TimerEvent: {}
+[2.219665] (-) TimerEvent: {}
+[2.320579] (-) TimerEvent: {}
+[2.421755] (-) TimerEvent: {}
+[2.522530] (-) TimerEvent: {}
+[2.623271] (-) TimerEvent: {}
+[2.724178] (-) TimerEvent: {}
+[2.825130] (-) TimerEvent: {}
+[2.926040] (-) TimerEvent: {}
+[3.026830] (-) TimerEvent: {}
+[3.127650] (-) TimerEvent: {}
+[3.228635] (-) TimerEvent: {}
+[3.329753] (-) TimerEvent: {}
+[3.431492] (-) TimerEvent: {}
+[3.454415] (turtlebot3_example) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/turtlebot3_example', 'build', '--build-base', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build', 'install', '--record', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/install.log', '--single-version-externally-managed'], 'cwd': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 't-pi', 'SSH_CLIENT': '192.168.0.100 45466 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/t-pi', 'OLDPWD': '/home/t-pi/TB3_RPI4_WS/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'PS4': '+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }', 'ROS_DISTRO': 'humble', 'LOGNAME': 't-pi', '_': '/home/t-pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 45466 192.168.0.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.531663] (-) TimerEvent: {}
+[3.632821] (-) TimerEvent: {}
+[3.733938] (-) TimerEvent: {}
+[3.835158] (-) TimerEvent: {}
+[3.936124] (-) TimerEvent: {}
+[4.037143] (-) TimerEvent: {}
+[4.138140] (-) TimerEvent: {}
+[4.239144] (-) TimerEvent: {}
+[4.340168] (-) TimerEvent: {}
+[4.441168] (-) TimerEvent: {}
+[4.479447] (turtlebot3_example) StdoutLine: {'line': b'running egg_info\n'}
+[4.482399] (turtlebot3_example) StdoutLine: {'line': b'creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info\n'}
+[4.483238] (turtlebot3_example) StdoutLine: {'line': b'writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO\n'}
+[4.484498] (turtlebot3_example) StdoutLine: {'line': b'writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt\n'}
+[4.485376] (turtlebot3_example) StdoutLine: {'line': b'writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt\n'}
+[4.486059] (turtlebot3_example) StdoutLine: {'line': b'writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt\n'}
+[4.486701] (turtlebot3_example) StdoutLine: {'line': b'writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt\n'}
+[4.487510] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[4.501303] (turtlebot3_example) StdoutLine: {'line': b"reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[4.505451] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[4.506193] (turtlebot3_example) StdoutLine: {'line': b'running build\n'}
+[4.506741] (turtlebot3_example) StdoutLine: {'line': b'running build_py\n'}
+[4.507266] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build\n'}
+[4.507926] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib\n'}
+[4.508483] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example\n'}
+[4.509066] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example\n'}
+[4.509661] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.510306] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.510873] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.511746] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.513092] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.513728] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.514547] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.515413] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.516728] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control\n'}
+[4.517357] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control\n'}
+[4.518132] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control\n'}
+[4.518991] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control\n'}
+[4.519813] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control\n'}
+[4.521340] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.522024] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.522793] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.523706] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.524545] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.527586] (turtlebot3_example) StdoutLine: {'line': b'running install\n'}
+[4.532568] (turtlebot3_example) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.533321] (turtlebot3_example) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.533980] (turtlebot3_example) StdoutLine: {'line': b'running install_lib\n'}
+[4.537257] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example\n'}
+[4.537963] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.538575] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.539496] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.540346] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client\n'}
+[4.541282] (-) TimerEvent: {}
+[4.542229] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.542833] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.543370] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.544165] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[4.545333] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control\n'}
+[4.545995] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control\n'}
+[4.546833] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control\n'}
+[4.547738] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control\n'}
+[4.548627] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control\n'}
+[4.549631] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example\n'}
+[4.550647] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.551253] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.552135] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.553213] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.554132] (turtlebot3_example) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server\n'}
+[4.556748] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-310.pyc\n'}
+[4.558788] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-310.pyc\n'}
+[4.560131] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc\n'}
+[4.563512] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc\n'}
+[4.566256] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-310.pyc\n'}
+[4.567969] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc\n'}
+[4.569400] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc\n'}
+[4.571555] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-310.pyc\n'}
+[4.573327] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-310.pyc\n'}
+[4.574743] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-310.pyc\n'}
+[4.579131] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc\n'}
+[4.580583] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc\n'}
+[4.582418] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc\n'}
+[4.585604] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-310.pyc\n'}
+[4.587315] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-310.pyc\n'}
+[4.588503] (turtlebot3_example) StdoutLine: {'line': b'running install_data\n'}
+[4.590654] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/ament_index\n'}
+[4.591393] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/ament_index/resource_index\n'}
+[4.592008] (turtlebot3_example) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[4.592564] (turtlebot3_example) StdoutLine: {'line': b'copying resource/turtlebot3_example -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[4.593180] (turtlebot3_example) StdoutLine: {'line': b'copying package.xml -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/share/turtlebot3_example\n'}
+[4.593624] (turtlebot3_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.600411] (turtlebot3_example) StdoutLine: {'line': b'Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info\n'}
+[4.606613] (turtlebot3_example) StdoutLine: {'line': b'running install_scripts\n'}
+[4.641458] (-) TimerEvent: {}
+[4.688386] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_obstacle_detection script to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[4.689271] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_client script to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[4.689911] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_server script to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[4.690592] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_position_control script to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[4.694345] (turtlebot3_example) StdoutLine: {'line': b"writing list of installed files to '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_example/install.log'\n"}
+[4.741758] (-) TimerEvent: {}
+[4.809301] (turtlebot3_example) CommandEnded: {'returncode': 0}
+[4.842030] (-) TimerEvent: {}
+[4.921270] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 0}
+[4.924481] (-) EventReactorShutdown: {}

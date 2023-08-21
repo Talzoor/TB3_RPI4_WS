@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.001769] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002451] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.006632] (-) JobUnselected: {'identifier': 'cv_camera'}
+[0.006859] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.007183] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.007395] (-) JobUnselected: {'identifier': 'rpi_temprature'}
+[0.007504] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.007612] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.007749] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.007861] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.007958] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.008102] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.012074] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.012312] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.012681] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.098900] (-) TimerEvent: {}
+[1.526724] (-) TimerEvent: {}
+[1.627529] (-) TimerEvent: {}
+[1.728534] (-) TimerEvent: {}
+[1.829560] (-) TimerEvent: {}
+[1.930293] (-) TimerEvent: {}
+[2.030993] (-) TimerEvent: {}
+[2.131715] (-) TimerEvent: {}
+[2.232421] (-) TimerEvent: {}
+[2.333139] (-) TimerEvent: {}
+[2.433829] (-) TimerEvent: {}
+[2.534583] (-) TimerEvent: {}
+[2.635326] (-) TimerEvent: {}
+[2.741155] (-) TimerEvent: {}
+[2.854004] (-) TimerEvent: {}
+[2.954797] (-) TimerEvent: {}
+[3.055802] (-) TimerEvent: {}
+[3.156636] (-) TimerEvent: {}
+[3.257386] (-) TimerEvent: {}
+[3.358084] (-) TimerEvent: {}
+[3.458767] (-) TimerEvent: {}
+[3.559460] (-) TimerEvent: {}
+[3.660180] (-) TimerEvent: {}
+[3.761023] (-) TimerEvent: {}
+[3.861710] (-) TimerEvent: {}
+[3.962421] (-) TimerEvent: {}
+[4.063183] (-) TimerEvent: {}
+[4.163949] (-) TimerEvent: {}
+[4.264797] (-) TimerEvent: {}
+[4.329186] (turtlebot3_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/turtlebot3_teleop', 'build', '--build-base', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build', 'install', '--record', '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/t-pi/TB3_RPI4_WS/src/turtlebot3/turtlebot3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 't-pi', 'SSH_CLIENT': '192.168.0.100 45466 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/t-pi', 'OLDPWD': '/home/t-pi/TB3_RPI4_WS/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'PS4': '+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }', 'ROS_DISTRO': 'humble', 'LOGNAME': 't-pi', '_': '/home/t-pi/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/t-pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 45466 192.168.0.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/prefix_override:/home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.364944] (-) TimerEvent: {}
+[4.465707] (-) TimerEvent: {}
+[4.566568] (-) TimerEvent: {}
+[4.667356] (-) TimerEvent: {}
+[4.768087] (-) TimerEvent: {}
+[4.868812] (-) TimerEvent: {}
+[4.969474] (-) TimerEvent: {}
+[5.070135] (-) TimerEvent: {}
+[5.170843] (-) TimerEvent: {}
+[5.271547] (-) TimerEvent: {}
+[5.327932] (turtlebot3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.330611] (turtlebot3_teleop) StdoutLine: {'line': b'creating ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info\n'}
+[5.331424] (turtlebot3_teleop) StdoutLine: {'line': b'writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO\n'}
+[5.332874] (turtlebot3_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt\n'}
+[5.333598] (turtlebot3_teleop) StdoutLine: {'line': b'writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt\n'}
+[5.334290] (turtlebot3_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt\n'}
+[5.334915] (turtlebot3_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt\n'}
+[5.335714] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[5.343100] (turtlebot3_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[5.346664] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[5.347406] (turtlebot3_teleop) StdoutLine: {'line': b'running build\n'}
+[5.347961] (turtlebot3_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.348658] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build\n'}
+[5.349330] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib\n'}
+[5.349795] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop\n'}
+[5.350210] (turtlebot3_teleop) StdoutLine: {'line': b'copying turtlebot3_teleop/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop\n'}
+[5.350784] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script\n'}
+[5.351329] (turtlebot3_teleop) StdoutLine: {'line': b'copying turtlebot3_teleop/script/__init__.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script\n'}
+[5.351935] (turtlebot3_teleop) StdoutLine: {'line': b'copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script\n'}
+[5.353324] (turtlebot3_teleop) StdoutLine: {'line': b'running install\n'}
+[5.354073] (turtlebot3_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.354681] (turtlebot3_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.355312] (turtlebot3_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[5.363016] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop\n'}
+[5.363719] (turtlebot3_teleop) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop\n'}
+[5.364614] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script\n'}
+[5.365286] (turtlebot3_teleop) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script\n'}
+[5.365929] (turtlebot3_teleop) StdoutLine: {'line': b'copying /home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script\n'}
+[5.368542] (turtlebot3_teleop) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[5.370035] (turtlebot3_teleop) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc\n'}
+[5.371432] (turtlebot3_teleop) StdoutLine: {'line': b'byte-compiling /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc\n'}
+[5.371990] (-) TimerEvent: {}
+[5.376413] (turtlebot3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[5.378523] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/ament_index\n'}
+[5.379284] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/ament_index/resource_index\n'}
+[5.379904] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[5.380509] (turtlebot3_teleop) StdoutLine: {'line': b'copying resource/turtlebot3_teleop -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[5.381105] (turtlebot3_teleop) StdoutLine: {'line': b'copying package.xml -> /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/share/turtlebot3_teleop\n'}
+[5.381546] (turtlebot3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.387804] (turtlebot3_teleop) StdoutLine: {'line': b'Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info\n'}
+[5.393911] (turtlebot3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[5.472193] (-) TimerEvent: {}
+[5.476928] (turtlebot3_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/t-pi/TB3_RPI4_WS/install/turtlebot3_teleop/lib/turtlebot3_teleop\n'}
+[5.478896] (turtlebot3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_teleop/install.log'\n"}
+[5.572610] (-) TimerEvent: {}
+[5.593761] (turtlebot3_teleop) CommandEnded: {'returncode': 0}
+[5.677724] (-) TimerEvent: {}
+[5.701795] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 0}
+[5.704712] (-) EventReactorShutdown: {}
