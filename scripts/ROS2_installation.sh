@@ -45,6 +45,7 @@ isInFile=$(cat ~/.bashrc | grep -c "source /opt/ros/humble/setup.bash")
 if [ $isInFile -eq 0 ]; then
     echo -e "\nAdding source to /.bashrc:"
     echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+    echo "~/TB3_RPI4_WS/install/setup.bash" >> ~/.bashrc
 fi
 
 isInFile=$(cat ~/.bashrc | grep -c "export ROS_DOMAIN_ID")
