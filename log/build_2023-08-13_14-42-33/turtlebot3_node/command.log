@@ -1,4 +1,0 @@
-Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
-Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node -- -j4 -l4
-Invoking command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node
-Invoked command in '/home/t-pi/TB3_RPI4_WS/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-pi/TB3_RPI4_WS/build/turtlebot3_node

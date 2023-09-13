@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target compressed_depth_image_transport[0m
-[ 20%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o[0m

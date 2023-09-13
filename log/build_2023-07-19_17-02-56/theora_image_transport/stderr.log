@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/theora_image_transport_component.dir/build.make:76: CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/theora_image_transport_component.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000591] (-) JobUnselected: {'identifier': 'ld08_driver'}
-[0.000807] (-) JobUnselected: {'identifier': 'turtlebot3'}
-[0.001140] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
-[0.001239] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
-[0.001495] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
-[0.001588] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
-[0.001873] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
-[0.001966] (-) EventReactorShutdown: {}

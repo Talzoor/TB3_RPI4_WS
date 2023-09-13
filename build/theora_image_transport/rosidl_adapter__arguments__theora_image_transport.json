@@ -1,6 +1,0 @@
-{
-  "package_name": "theora_image_transport",
-  "non_idl_tuples": [
-    "/home/t-pi/TB3_RPI4_WS/src/image_transport_plugins/theora_image_transport:msg/Packet.msg"
-  ]
-}

@@ -1,1 +1,0 @@
-Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_image_transport -- -j4 -l4

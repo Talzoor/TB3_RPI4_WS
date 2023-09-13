@@ -1,5 +1,0 @@
-[0.206s] Invoking command in '/home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-pi/TB3_RPI4_WS/build/compressed_depth_image_transport -- -j4 -l4
-[0.911s] [35m[1mConsolidate compiler generated dependencies of target compressed_depth_image_transport[0m
-[1.059s] [ 20%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o[0m
-[1.078s] [ 40%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o[0m
-[1.086s] [ 60%] [32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o[0m

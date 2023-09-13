@@ -1,3 +1,0 @@
-[console_scripts]
-rpi_get_temprature = rpi_temprature.rpi_get_temprature:main
-
