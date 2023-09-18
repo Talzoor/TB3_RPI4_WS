@@ -1,0 +1,1 @@
+/home/t-pi/turtlebot3_ws/src/turtlebot3/turtlebot3_node/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake
