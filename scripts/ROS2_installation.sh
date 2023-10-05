@@ -27,11 +27,11 @@ echo -e "\nInstalling base version:"
 sudo apt install -y ros-humble-ros-base
 pip install -U colcon-common-extensions
 pip install -U colcon-argcomplete
-sudo apt install -y python3-colcon-clean 
+sudo apt-get install -y python3-colcon-clean 
+sudo apt-get install -y ros-humble-turtlesim
 
 # Adding auto complete to colcon
 isInFile=$(cat ~/.bashrc | grep -c "source ~/.local/share/colcon_argcomplete/hook/colcon-argcomplete.bash")
-
 if [ $isInFile -eq 0 ]; then
     echo -e "\nAdding source to /.bashrc:"
     echo "source ~/.local/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
@@ -41,7 +41,6 @@ echo -e "\nInstalling demo nodes (py and cpp):"
 sudo apt-get install -y ros-humble-demo-nodes-py ros-humble-demo-nodes-cpp
 
 isInFile=$(cat ~/.bashrc | grep -c "source /opt/ros/humble/setup.bash")
-
 if [ $isInFile -eq 0 ]; then
     echo -e "\nAdding source to /.bashrc:"
     echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
@@ -49,14 +48,23 @@ if [ $isInFile -eq 0 ]; then
 fi
 
 isInFile=$(cat ~/.bashrc | grep -c "export ROS_DOMAIN_ID")
-
 if [ $isInFile -eq 0 ]; then
     echo -e "\nAdding ROS_DOMAIN_ID to /.bashrc:"
     echo "export ROS_DOMAIN_ID=30" >> ~/.bashrc
 fi
 
+isInFile=$(cat ~/.bashrc | grep -c "export TURTLEBOT3_MODEL")
+if [ $isInFile -eq 0 ]; then
+    echo -e "\nAdding TURTLEBOT3_MODEL to /.bashrc:"
+    echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+fi
+
+isInFile=$(cat ~/.bashrc | grep -c "export LDS_MODEL")
+if [ $isInFile -eq 0 ]; then
+    echo -e "\nAdding LDS_MODEL to /.bashrc:"
+    echo "export LDS_MODEL=LDS-01" >> ~/.bashrc
+fi
+
 source ~/.bashrc
 
-echo -e "\nAdd email script to startup -->"
-echo -e "sudo crontab -e"
-echo -e "add “@reboot ~/TB3_RPI4_WS/scripts/ send_ip_2_email.py &”"
+
