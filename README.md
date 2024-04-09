@@ -2,9 +2,9 @@
 # :desktop_computer: General settings :desktop_computer:
 
 ## router settings
-user: admin
+user: > admin
 
-pass: zxcvb123
+pass: > zxcvb123
 
 
 
