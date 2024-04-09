@@ -1,6 +1,14 @@
 <!-- https://github.com/Talzoor/TB3_RPI4_WS -->
 # :desktop_computer: General settings :desktop_computer:
 
+## router settings
+user: admin
+pass: zxcvb123
+
+Wifi: TurtleBotWIFI
+pass: zxcvb123
+
+
 # :robot: TB3_RPI4_WS :robot:
 
 RPI4 workspace, ros2 humble
