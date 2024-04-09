@@ -2,15 +2,15 @@
 # :desktop_computer: General settings :desktop_computer:
 
 ## router settings
-user: 'admin'
+user: ´admin´
 
-pass: 'zxcvb123'
+pass: ´zxcvb123´
 
 
 
-Wifi: 'TurtleBotWIFI'
+Wifi: ´TurtleBotWIFI´
 
-pass: 'zxcvb123'
+pass: ´zxcvb123´
 
 
 # :robot: TB3_RPI4_WS :robot:
