@@ -3,9 +3,13 @@
 
 ## router settings
 user: admin
+
 pass: zxcvb123
 
+
+
 Wifi: TurtleBotWIFI
+
 pass: zxcvb123
 
 
