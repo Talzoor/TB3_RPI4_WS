@@ -1,4 +1,6 @@
 <!-- https://github.com/Talzoor/TB3_RPI4_WS -->
+# :desktop_computer: General settings :desktop_computer:
+
 # :robot: TB3_RPI4_WS :robot:
 
 RPI4 workspace, ros2 humble
