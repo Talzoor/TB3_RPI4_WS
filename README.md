@@ -5,7 +5,7 @@
 
 ### router
 
-user: `admin`
+    user: `admin`
 
 pass: `zxcvb123`
 
