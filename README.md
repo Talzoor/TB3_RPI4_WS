@@ -2,11 +2,14 @@
 # :desktop_computer: General settings :desktop_computer:
 
 ## router settings
+
+# router
+
 user: `admin`
 
 pass: `zxcvb123`
 
-
+# Wifi
 
 Wifi: `TurtleBotWIFI`
 
