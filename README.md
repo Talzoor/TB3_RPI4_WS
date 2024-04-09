@@ -5,15 +5,15 @@
 
 ### router
 
-    user: `admin`
+**user:** `admin`
 
-pass: `zxcvb123`
+**pass:** `zxcvb123`
 
 ### Wifi
 
-Wifi: `TurtleBotWIFI`
+**Wifi:** `TurtleBotWIFI`
 
-pass: `zxcvb123`
+**pass:** `zxcvb123`
 
 
 # :robot: TB3_RPI4_WS :robot:
