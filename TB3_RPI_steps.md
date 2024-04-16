@@ -51,7 +51,7 @@ gmail account to send IP at boot:	(https://gist.github.com/slayton/3913056)
 
 Create synced folder via ssh:	(https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/)
 	mkdir ~/remote_dir
-sudo apt install sshfs
+	sudo apt install sshfs
 	sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
 
 
@@ -67,19 +67,35 @@ Run this scipt at startup – (https://askubuntu.com/questions/814/how-to-run-sc
 		sudo rm /var/run/crond.reboot 
 sudo service cron restart
 	
+git passkey: # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	#create ssh key
+	ssh-keygen -t ed25519 -C "tal.turtlebot.mail@gmail.com"
+	#Adding your SSH key to the ssh-agent
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/id_ed25519
+	#show key
+	cat ~/.ssh/id_ed25519.pub
+	# add to github : https://github.com/settings/keys
+	
 git:
-	# Clone git 
+	# Clone git
+	# if there is an error with CA certificates - set date
+	# sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+	git clone https://github.com/Talzoor/TB3_RPI4_WS.git
+
+	
 
 Install Python  ROS:
 	
 
 ROS2 talking on the same network – (https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/)
 	RPI:	
-export ROS_DOMAIN_ID=5
-source /opt/ros/humble/setup.bash
-ros2 run demo_nodes_cpp talker
+		export ROS_DOMAIN_ID=5
+		source /opt/ros/humble/setup.bash
+		ros2 run demo_nodes_cpp talker
 
 	PC:	
-export ROS_DOMAIN_ID=30 #default TurtleBot ID
-source /opt/ros/humble/setup.bash
-ros2 run demo_nodes_cpp listener
+		export ROS_DOMAIN_ID=30 #default TurtleBot ID
+		source /opt/ros/humble/setup.bash
+		ros2 run demo_nodes_cpp listener
+
