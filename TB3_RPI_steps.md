@@ -56,6 +56,8 @@ https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/
 	sudo apt install sshfs
 	sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
 	or
+	sshfs t-pi@192.168.0.2:/ ~/remoteDir
+
 	
 
 
