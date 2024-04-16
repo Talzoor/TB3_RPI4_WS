@@ -101,7 +101,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 	
 
 ## Install Python  ROS:
-	
+	<!--Text-->
 
 # ROS2 talking on the same network 
 https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
