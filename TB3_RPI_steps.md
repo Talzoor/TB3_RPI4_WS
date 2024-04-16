@@ -2,6 +2,7 @@
 
 ## RPI image writer:	
 ubuntu server 22.04.3 LTS (64 bit)
+
 user: ubuntu/t-pi, pass: ubuntu  T12345678
 
 ## connecting wifi networks –
