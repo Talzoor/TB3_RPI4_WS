@@ -88,7 +88,7 @@ git:
 Install Python  ROS:
 	
 
-ROS2 talking on the same network – (https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/)
+#ROS2 talking on the same network – (https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/)
 	
 	RPI:	
 		export ROS_DOMAIN_ID=5
