@@ -15,4 +15,4 @@ echo -e "\nInstall rosdep and Check dependencies:"
 sudo apt-get install -y python3-rosdep2
 sudo rosdep init
 rosdep update
-rosdep install -i --from-path src --rosdistro humble -y
+rosdep install -i --from-path ~/TB3_RPI4_WS/src/ --rosdistro humble -y
