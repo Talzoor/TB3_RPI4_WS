@@ -3,7 +3,7 @@
 ## RPI image writer:	
 ubuntu server 22.04.3 LTS (64 bit)
 
-user: ubuntu/t-pi, pass: ubuntu  T12345678
+	user: ubuntu/t-pi, pass: ubuntu  T12345678
 
 ## connecting wifi networks –
 	backup –
@@ -19,8 +19,9 @@ user: ubuntu/t-pi, pass: ubuntu  T12345678
             				dhcp4: true
 
 In order to connect BGU-WIFI, need desktop:
+
 	Wifi over hotspot, TalSpot
-	(https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu)
+	https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu
 	sudo apt install slim
 	sudo apt install lxde
 
@@ -47,17 +48,25 @@ run GUI manually:
 change ‘ubuntu’ hostname  TB3_RPI:	(https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/)
 
 ## gmail account to send IP at boot:
+
 https://gist.github.com/slayton/3913056
-	tal.turtlebot.mail@gmail.com
-	Pass12345678!
+
+tal.turtlebot.mail@gmail.com
+
+Pass12345678!
 
 ## Create synced folder via ssh:	
 https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/
-	mkdir ~/remote_dir
-	sudo apt install sshfs
-	sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
-	or
-	sshfs t-pi@192.168.0.2:/ ~/remoteDir
+
+mkdir ~/remote_dir
+
+sudo apt install sshfs
+
+sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
+
+or
+
+sshfs t-pi@192.168.0.2:/ ~/remoteDir
 
 	
 
