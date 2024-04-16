@@ -1,10 +1,10 @@
-TurtleBot3 RPI steps:
+# TurtleBot3 RPI steps:
 
-RPI image writer:	
+## RPI image writer:	
 ubuntu server 22.04.3 LTS (64 bit)
 user: ubuntu/t-pi, pass: ubuntu  T12345678
 
-connecting wifi networks –
+## connecting wifi networks –
 	backup –
 		sudo cp /etc/netplan/50-cloud-init.yaml /etc/netplan/original_50-cloud-init.yaml
 	sudo nano /etc/netplan/50-cloud-init.yaml
@@ -25,7 +25,7 @@ In order to connect BGU-WIFI, need desktop:
 
 signup to BGU-WIFI and load webpage – bgu.ac.il
 
-check ssh conection:
+## check ssh conection:
 	find IP for RPI –
 		ip a
 	connect from PC –
@@ -45,14 +45,18 @@ run GUI manually:
 
 change ‘ubuntu’ hostname  TB3_RPI:	(https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/)
 
-gmail account to send IP at boot:	(https://gist.github.com/slayton/3913056)
+## gmail account to send IP at boot:
+https://gist.github.com/slayton/3913056
 	tal.turtlebot.mail@gmail.com
 	Pass12345678!
 
-Create synced folder via ssh:	(https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/)
+## Create synced folder via ssh:	
+https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/
 	mkdir ~/remote_dir
 	sudo apt install sshfs
 	sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
+	or
+	
 
 
 
@@ -89,7 +93,7 @@ Install Python  ROS:
 	
 
 # ROS2 talking on the same network 
-(https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/)
+https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
 	
 	RPI:	
 		export ROS_DOMAIN_ID=5
