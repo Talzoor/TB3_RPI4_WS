@@ -68,22 +68,21 @@ or
 
 sshfs t-pi@192.168.0.2:/ ~/remoteDir
 
-	
-
-
-
-Copy script “send_ip_2_email.py” to /bin –
+## Copy script “send_ip_2_email.py” to /bin –
 	sudo cp ~/scripts/send_ip_2_email.py /bin
 	sudo chmod +x /bin/send_ip_2_email.py
 
 Run this scipt at startup – (https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up)
+	
 	sudo crontab -e
 	add “@reboot /bin/ send_ip_2_email.py &”
 	Check crontab script (https://superuser.com/questions/1549286/how-to-test-cron-reboot-entry) –
-		sudo rm /var/run/crond.reboot 
-sudo service cron restart
+	sudo rm /var/run/crond.reboot 
+	sudo service cron restart
 	
-git passkey: # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+## git passkey:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	
 	#create ssh key
 	ssh-keygen -t ed25519 -C "tal.turtlebot.mail@gmail.com"
 	#Adding your SSH key to the ssh-agent
@@ -93,7 +92,7 @@ git passkey: # https://docs.github.com/en/authentication/connecting-to-github-wi
 	cat ~/.ssh/id_ed25519.pub
 	# add to github : https://github.com/settings/keys
 	
-git:
+## git:
 	# Clone git
 	# if there is an error with CA certificates - set date
 	# sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
@@ -101,7 +100,7 @@ git:
 
 	
 
-Install Python  ROS:
+## Install Python  ROS:
 	
 
 # ROS2 talking on the same network 
