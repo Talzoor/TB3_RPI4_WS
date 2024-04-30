@@ -167,7 +167,7 @@ def main():
 
 			if IP_local != "" or IP_external != "":
 				try:
-					sendTo = 'talzoor@gmail.com'
+
 					emailSubject = "TB3 IP:{} [{}]".format(IP_local, current_time)
 					emailContent = "<br>{} \t<\t internal IP".format(IP_local) \
 								+ "<br>{} \t<\t external IP".format(IP_external) \
@@ -176,17 +176,15 @@ def main():
 								+ "<br>Reason: {}".format(email_reason)
 								# + "ssh {}@{}".format(user_name, IP_local)
 
-					#Sends an email to the "sendTo" address with the specified "emailSubject" as the subject and "emailContent" as the email content.
 
+					#Sends an email to the "sendTo" address with the specified "emailSubject" as the subject and "emailContent" as the email content.
+					sendTo = 'talzoor@gmail.com'
 					sender = Emailer()
 					sender.sendmail(sendTo, emailSubject, emailContent)
 
-					sendTo = 'kashim@post.bgu.ac.il'
-
-					#Sends an email to the "sendTo" address with the specified "emailSubject" as the subject and "emailContent" as the email content.
-
-					sender = Emailer()
-					sender.sendmail(sendTo, emailSubject, emailContent)
+					#sendTo = 'kashim@post.bgu.ac.il'
+					#sender = Emailer()
+					#sender.sendmail(sendTo, emailSubject, emailContent)
 
 
 				except Exception as e:

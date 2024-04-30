@@ -16,3 +16,5 @@ sudo apt-get install -y python3-rosdep2
 sudo rosdep init
 rosdep update
 rosdep install -i --from-path ~/TB3_RPI4_WS/src/ --rosdistro humble -y
+
+source ~/TB3_RPI4_WS/scripts/camera_init.sh
