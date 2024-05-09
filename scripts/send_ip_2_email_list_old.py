@@ -8,8 +8,6 @@ import socket
 import time
 import os
 from time import sleep
-from string import Template
-import set_time
 
 #Email Variables
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
@@ -127,17 +125,6 @@ class Log:
 
 
 def main():
-	# first, check and update time
-	internet_time = set_time.get_internet_time()
-	if internet_time:
-		system_time = set_time.get_system_time(internet_time)
-		print("Internet time:", internet_time)
-		print("System time:", system_time)
-		if internet_time != system_time:
-			set_time.update_system_time(internet_time)
-		else:
-			print("Failed to retrieve internet time.")
-	
 	logger = Log("scripts", "send_ip_2_email")
 	logger.print("Ubuntu username:{}".format(user_name))
 
@@ -146,6 +133,10 @@ def main():
 
 	while not is_connected():
 		curr_time = time.time()
+		# if curr_time - start_time > 60:
+			# print("Error getting IP. Network down. quiting!")
+			# exit(1)
+			# break
 		time.sleep(1)
 		logger.print(".", end = " ", flush=True)
 	logger.print("Connected!\n")
@@ -177,79 +168,22 @@ def main():
 			if IP_local != "" or IP_external != "":
 				try:
 
-					emailSubject = "TB3 IP:{} [{}]".format(IP_local, current_time)	
-					emailContent_txt = '''
-    <!DOCTYPE html>
-    <html>
-    <head>
-        
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style type="text/css">
-          h1{font-size:56px}
-          h2{font-size:28px}
-		  h3{font-size:28px;font-weight:bold}
-		  t1{font-size:24px}
-          p{font-weight:100}
-          td{vertical-align:top}
-          #email{margin:auto;width:1000px;background-color:#fff}
-        </style>
-		<style>
-        	.tab {
-            display: inline-block;
-            margin-left: 40px;
-        	}
-    	</style>
-    </head>
-    <body bgcolor="#F5F8FA" style="width: 100%; font-family:Georgia, serif; font-size:18px;">
-    <div id="email">
-        <table role="presentation" width="100%">
-            <tr>
-                <td bgcolor="#00A4BD" align="center" style="color: white;">
-                    <h1> $TITLE </h1>
-                </td>
-        </table>
-        <table role="presentation" border="0" cellpadding="0" cellspacing="10px" style="padding: 30px 30px 30px 60px;">
-            <tr>
-                <td>
-                    <h2>$TITLE_MSG</h2>
-					<t1>
-						<p>
-							<br><strong>$IP_LOCAL</strong><span class="tab"></span><<span class="tab"></span> internal IP
-							<br>$IP_EXTERNAL<span class="tab"></span><<span class="tab"></span> external IP
-							<br><br>ssh t-pi@$IP_LOCAL
-							<br><br>$CURR_TIME
-							<br>Reason: $EMAIL_REASON
-							</div>
-							<br><br>
-						</p>
-					</t1>
-					script file: $OS_PATH
-                </td>
-            </tr>
-        </table>
-    </div>
-    </body>
-    </html>
-'''
-
-
-
-					emailContentTemplate = Template(emailContent_txt)
-					emailContent = emailContentTemplate.safe_substitute(TITLE='Hello !',
-														 TITLE_MSG="This is an automated email from Raspberry Pi",
-														 IP_LOCAL=IP_local,
-														 IP_EXTERNAL=IP_external,
-														 CURR_TIME=current_time,
-														 EMAIL_REASON=email_reason,
-														 OS_PATH=os.path.abspath(__file__))
+					emailSubject = "TB3 IP:{} [{}]".format(IP_local, current_time)
+					emailContent = "<div style=""font-size:30px; padding:0 10px;"">" \
+								+ "<br><strong>{}</strong> \t\t<\t internal IP".format(IP_local) \
+								+ "<br>{} \t\t<\t external IP".format(IP_external) \
+								+ "<br>ssh t-pi@{}".format(IP_local) \
+								+ "<br><br>{}".format(current_time) \
+								+ "<br>Reason: {}".format(email_reason) \
+								+ "</div>" \
+								+ "<br><br>script file:	{}".format(os.path.abspath(__file__)) \
+								+ " "
+								# + "ssh {}@{}".format(user_name, IP_local)
 
 					#Sends an email to the "sendTo" address with the specified "emailSubject" as the subject and "emailContent" as the email content.
 					sendTo = 'talzoor@gmail.com'
 					sender = Emailer()
 					sender.sendmail(sendTo, emailSubject, emailContent)
-
-					logger.print("email sent!\n")
 
 					#sendTo = 'kashim@post.bgu.ac.il'
 					#sender = Emailer()
