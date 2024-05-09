@@ -29,7 +29,7 @@ float get_rpi_temp(){
   temperatureFile = fopen ("/sys/class/thermal/thermal_zone0/temp", "r");
   if (temperatureFile == NULL)
     printf ("Faild to get RPI temprature");
-  fscanf (temperatureFile, "%lf", &T);
+  fscanf (temperatureFile, "%f", &T);
   T /= 1000;
   // printf ("The temperature is %6.3f C.\n", T);
   fclose (temperatureFile);
