@@ -58,15 +58,15 @@ Pass12345678!
 ## Create synced folder via ssh:	
 https://www.golinuxcloud.com/how-to-transfer-files-over-ssh-with-sshfs/
 
-mkdir ~/remote_dir
+### PC
+	mkdir ~/remote_dir
 
-sudo apt install sshfs
+	sudo apt install sshfs
 
-sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
-
+	
+	sshfs ubuntu@192.168.43.10:/home/ubuntu/remote_dir /home/tal/remote_dir
 or
-
-sshfs t-pi@192.168.0.2:/ ~/remoteDir
+	sshfs t-pi@192.168.0.2:/ ~/remoteDir
 
 ## Copy script “send_ip_2_email.py” to /bin –
 	sudo cp ~/scripts/send_ip_2_email.py /bin
