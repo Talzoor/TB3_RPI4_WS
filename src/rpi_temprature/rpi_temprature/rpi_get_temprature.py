@@ -23,6 +23,7 @@ class TempPublisher(Node):
         self.publisher_cpu_temp = self.create_publisher(Float32, 'rpi_cpu_temp', 10)
         self.publisher_max_temp_10s = self.create_publisher(Float32, 'rpi_cpu_max_temp_10s', 10)
         self.publisher_max_temp_60s = self.create_publisher(Float32, 'rpi_cpu_max_temp_60s', 10)
+        self.get_logger().info("Printing cpu temperture: Current | max 10s | max60s")
 
         timer_period = 1.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -60,11 +61,11 @@ class TempPublisher(Node):
 
         # Update max temp for all readings
         self.max_temp_60s = max(list(self.temperature_queue))
-
-        self.get_logger().info("c_t: {}, max10_t:{}, max60_t:{}, queue size:{}".format(current_temp,
+        
+        self.get_logger().info("{:.1f}\u00b0\t{:.1f}\u00b0\t{:.1f}\u00b0".format(current_temp,
                                                                                        self.max_temp_10s,
-                                                                                       self.max_temp_60s, 
-                                                                                       len(self.temperature_queue)))
+                                                                                       self.max_temp_60s
+                                                                                       ))
         
         # self.get_logger().info("\nqueue:{}".format(self.temperature_queue))
 

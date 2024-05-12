@@ -36,6 +36,7 @@ ssh t-pi@192.168.0.2
 cd ~/TB3_RPI4_WS
 #rm -r build install log 		# if you wish to clean before building from scratch
 colcon build --parallel-workers 2 	# can take ~20min for clean build, rpi has 4 cores, using only 2 will allow ssh and such
+source ~/.bashrc    # somtimes needed
 ```
 
 ## github push
@@ -82,5 +83,19 @@ ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/.ros/camera_info/pa
 ### PC
 ```bash
 ros2 run web_video_server web_video_server
+```
+
+## test [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
+
+
+### TB3
+
+```bash
+sudo 
+```
+
+### PC
+```bash
+ros2 
 ```
 
