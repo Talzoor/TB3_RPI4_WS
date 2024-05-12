@@ -85,13 +85,18 @@ ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/.ros/camera_info/pa
 ros2 run web_video_server web_video_server
 ```
 
-## test [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
+## Test algorithem [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
 
 
 ### TB3
 
+clone [Pangolin](https://github.com/stevenlovegrove/Pangolin)
 ```bash
-sudo 
+git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
+```
+
+```bash
+sudo apt install ninja-build 
 ```
 
 ### PC
