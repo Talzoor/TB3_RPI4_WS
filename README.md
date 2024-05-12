@@ -94,7 +94,10 @@ clone [Pangolin](https://github.com/stevenlovegrove/Pangolin)
 ```bash
 git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 ```
-
+install dependencies
+```bash
+./scripts/install_prerequisites.sh --dry-run recommended
+```
 ```bash
 sudo apt install ninja-build 
 ```
