@@ -98,8 +98,13 @@ install dependencies
 ```bash
 ./scripts/install_prerequisites.sh --dry-run recommended
 ```
+build with Ninja for faster builds
 ```bash
-sudo apt install ninja-build 
+sudo apt install ninja-build
+
+cmake -B build -GNinja
+cmake --build build
+
 ```
 
 ### PC
