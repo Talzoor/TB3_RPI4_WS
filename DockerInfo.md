@@ -26,3 +26,11 @@ make sure to write in docker
 ## will look like - 
 root@DOCKER_IMG_REF:/# feh /root/demo/python/result_Landmarks.jpg
 ```
+
+## save current state for image
+
+```bash
+docker commit f603476f7837 talzzz/my_img_24_05_29
+#                   ˅                   ˅
+#             my_container          my_image
+```
