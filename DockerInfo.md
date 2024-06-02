@@ -15,6 +15,8 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -p 5000:5000 -p 
 
 ## test if display is on (thru Docker)
 
+# will look like - root@DOCKER_IMG_REF:/# feh /root/demo/python/result_Landmarks.jpg
+
 ```bash
-root@DOCKER_IMG_REF:/# feh /root/demo/python/result_Landmarks.jpg
+feh /root/demo/python/result_Landmarks.jpg
 ```
