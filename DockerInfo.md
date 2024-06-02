@@ -1,6 +1,14 @@
 <!-- https://github.com/Talzoor/TB3_RPI4_WS -->
 # :desktop_computer: Docker info :desktop_computer:
 
+## TODO
+
+02/06/2024
+continue installing Prerequisites from ORB-SLAM3
+(https://github.com/UZ-SLAMLab/ORB_SLAM3?tab=readme-ov-file)
+
+--> need to start with "Pangolin"
+
 ## define display with permission
 
 ```bash
