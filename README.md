@@ -102,7 +102,7 @@ build with Ninja for faster builds
 ```bash
 sudo apt install ninja-build
 
-cmake -B build -GNinja
+ cmake -B build -GNinja
 cmake --build build
 
 ```
