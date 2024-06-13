@@ -95,7 +95,7 @@ docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -p 5000:5000 -p 
 
 now - exit and run docker container again
 
-### Find ip
+### Find ip and connect
 
 On Ubuntu terminal ->
 
@@ -106,6 +106,14 @@ sudo docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{
 ```bash
 ssh root@172.17.0.2
 ```
+
+when finished, commit, and remove naming
+
+```bash
+docker commit my_latest_container talzzz/my_img_24_06_13
+docker rm my_latest_container
+```
+
 
 
 
