@@ -70,6 +70,13 @@ EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 ```
 
-> [!CAUTION]
-> Negative potential consequences of an action.
+> [!IMPORTANT]
+> Line 5: "your_password" should be change to ...
+> Line 7 was added - not in above url
+
+> [!NOTE]  
+> if still not working -
+> ```bash
+> test
+> ```
 
