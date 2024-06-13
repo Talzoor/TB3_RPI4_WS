@@ -11,6 +11,23 @@
 
 ## Install Prerequisites
 
+# Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+```bash
+# run 'sudo' if available
+# sudo apt-get install build-essential
+apt-get install build-essential
+brew install gcc
+```
+
+
+
+
+
 ```bash
 xhost +local:docker
 ```
