@@ -45,7 +45,7 @@ docker commit f603476f7837 talzzz/my_img_24_05_29
 
 ## connect docker via SSH
 
-### creating img with Dockerfile
+### Creating img with Dockerfile
 
 [Started from here](https://www.cherryservers.com/blog/ssh-into-docker-container)
 
@@ -75,9 +75,38 @@ CMD ["/usr/sbin/sshd", "-D"]
 > 
 > Line 7 was added - not in above url
 
+Build image
+
+```bash
+sudo docker build -t talzzz/my_img_24_06_13 .
+```
+
+### Running docker container
+
+```bash
+docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -p 5000:5000 -p 8888:8888 -p 2222:22 --name my_latest_container -it talzzz/my_img_24_06_13:latest /bin/bash
+```
+
 > [!NOTE]  
 > if still not working - need to add 'sshd' running on docker container (run on docker "root@486306ccaf17:/#")
 > ```bash
 > root@0baf48e12297:/# echo 'eval "$(/usr/sbin/sshd)"' >> /root/.bashrc
 > ```
+
+now - exit and run docker container again
+
+### Find ip
+
+On Ubuntu terminal ->
+
+```bash
+sudo docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' my_latest_container
+```
+
+```bash
+ssh root@172.17.0.2
+```
+
+
+
 
