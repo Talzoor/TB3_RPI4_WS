@@ -1,7 +1,7 @@
 <!-- https://github.com/Talzoor/TB3_RPI4_WS -->
 # :desktop_computer: ORB_SLAM3 installation steps :desktop_computer:
 
-(Github page)[https://github.com/UZ-SLAMLab/ORB_SLAM3?tab=readme-ov-file]
+[Github page](https://github.com/UZ-SLAMLab/ORB_SLAM3?tab=readme-ov-file)
 
 ## TODO
 
