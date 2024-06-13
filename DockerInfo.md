@@ -76,8 +76,8 @@ CMD ["/usr/sbin/sshd", "-D"]
 > Line 7 was added - not in above url
 
 > [!NOTE]  
-> if still not working -
+> if still not working - need to add 'sshd' running on docker container (run on docker "root@486306ccaf17:/#")
 > ```bash
-> test
+> root@0baf48e12297:/# echo 'eval "$(/usr/sbin/sshd)"' >> /root/.bashrc
 > ```
 
