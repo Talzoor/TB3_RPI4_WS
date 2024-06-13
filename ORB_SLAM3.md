@@ -18,16 +18,26 @@
 ```
 
 ```bash
+# Homebrew "Next steps"
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /root/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # run 'sudo' if available
 # sudo apt-get install build-essential
 apt-get install build-essential
 brew install gcc
 ```
 
-
-
-
+# [Pangolin](https://github.com/stevenlovegrove/Pangolin)
 
 ```bash
-xhost +local:docker
+cd /
+git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
+```
+
+```bash
+cd Pangolin/
+# Override the package manager choice and install all packages
+./scripts/install_prerequisites.sh -m brew all
+
 ```
