@@ -30,12 +30,14 @@ brew install gcc
 
 ### [Pangolin](https://github.com/stevenlovegrove/Pangolin)
 
+#### Download code
+
 ```bash
 cd /
 git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 ```
 
-#### test
+#### Dependencies
 
 ```bash
 cd Pangolin/
@@ -43,3 +45,4 @@ cd Pangolin/
 ./scripts/install_prerequisites.sh -m brew all
 
 ```
+

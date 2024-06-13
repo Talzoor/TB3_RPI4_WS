@@ -42,3 +42,34 @@ docker commit f603476f7837 talzzz/my_img_24_05_29
 #                   ˅                   ˅
 #             my_container          my_image
 ```
+
+## connect docker via SSH
+
+### creating img with Dockerfile
+
+[Started from here](https://www.cherryservers.com/blog/ssh-into-docker-container)
+
+```bash
+mkdir ~/my_docker_img
+cd ~/my_docker_img
+nano Dockerfile
+```
+
+paste into file:
+
+```bash
+FROM ubuntu:16.04
+RUN apt-get update && apt-get install -y openssh-server
+RUN mkdir /var/run/sshd
+# Set root password for SSH access (change 'your_password' to your desired password)
+RUN echo 'root:your_password' | chpasswd
+RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
+RUN yes 'y' | ssh-keygen -q -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D"]
+```
+
+[!CAUTION]
+Negative potential consequences of an action.
+
