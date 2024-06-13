@@ -70,6 +70,6 @@ EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 ```
 
-[!CAUTION]
-Negative potential consequences of an action.
+> [!CAUTION]
+> Negative potential consequences of an action.
 
