@@ -47,11 +47,20 @@ cd Pangolin/
 
 #### Fix error message - Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY)
 
-
 open file "Pangolin/components/pango_opengl/CMakeLists.txt"
 
 add line:
 ```cmake
 set(OPENGL_opengl_LIBRARY "${OPENGL_gl_LIBRARY}") # after line 48: set(OpenGL_GL_PREFERENCE "GLVND")
 ```
+
+#### Fix epoxy - Could NOT find epoxy (missing: epoxy_LIBRARIES epoxy_INCLUDE_DIRS)
+
+try:
+```bash
+apt-get install -y libepoxy-dev
+```
+
+or check [URL](https://stackoverflow.com/a/78586150)
+
 
