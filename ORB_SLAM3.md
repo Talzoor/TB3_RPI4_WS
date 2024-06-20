@@ -43,6 +43,16 @@ git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin/
 # Override the package manager choice and install all packages
 ./scripts/install_prerequisites.sh -m brew all
-
 ```
+
+#### Fix error message
+
+open file "Pangolin/components/pango_opengl/CMakeLists.txt"
+
+add line:
+```cmake
+set(OPENGL_opengl_LIBRARY "${OPENGL_gl_LIBRARY}") #
+```
+
+after line 48:         set(OpenGL_GL_PREFERENCE "GLVND")
 
