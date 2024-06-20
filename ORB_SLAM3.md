@@ -45,14 +45,13 @@ cd Pangolin/
 ./scripts/install_prerequisites.sh -m brew all
 ```
 
-#### Fix error message
+#### Fix error message - Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY)
+
 
 open file "Pangolin/components/pango_opengl/CMakeLists.txt"
 
 add line:
 ```cmake
-set(OPENGL_opengl_LIBRARY "${OPENGL_gl_LIBRARY}") #
+set(OPENGL_opengl_LIBRARY "${OPENGL_gl_LIBRARY}") # after line 48: set(OpenGL_GL_PREFERENCE "GLVND")
 ```
-
-after line 48:         set(OpenGL_GL_PREFERENCE "GLVND")
 
