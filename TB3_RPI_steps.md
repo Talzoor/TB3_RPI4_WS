@@ -95,7 +95,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 	# Clone git
 	# if there is an error with CA certificates - set date
 	# sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
-	git clone https://github.com/Talzoor/TB3_RPI4_WS.git
+	# git clone https://github.com/Talzoor/TB3_RPI4_WS.git   <-- NO. use ssh clone
+	git clone git@github.com:Talzoor/TB3_RPI4_WS.git
+
 
 	
 
