@@ -11,7 +11,7 @@
 
 ### Wifi
 
-**Wifi:** `TurtleBotWIFI` or 'TBWIFI_open'
+**Wifi:** `TurtleBotWIFI` or `TBWIFI_open`
 
 **pass:** `zxcvb123`
 
