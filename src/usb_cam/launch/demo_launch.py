@@ -52,11 +52,13 @@ def generate_launch_description():
     usb_cam_dir = get_package_share_directory('usb_cam')
 
     # get path to params file
-    params_path = os.path.join(
-        usb_cam_dir,
-        'config',
-        'params.yaml'
-    )
+#    params_path = os.path.join(
+#        usb_cam_dir,
+#        'config',
+#        'params.yaml'
+#    )
+    params_path = "~/.ros/camera_info/params.yaml"
+
 
     node_name = args.node_name
 
@@ -65,13 +67,19 @@ def generate_launch_description():
         package='usb_cam', executable='usb_cam_node_exe', output='screen',
         name=node_name,
         # namespace=ns,
-        parameters=[params_path]
+        # parameters=[params_path]
+	arguments=["--params-file", params_path]
         ))
-    ld.add_action(Node(
-        package='usb_cam', executable='show_image.py', output='screen',
+#    ld.add_action(Node(
+#        package='usb_cam', executable='show_image.py', output='screen',
         # namespace=ns,
         # arguments=[image_manip_dir + "/data/mosaic.jpg"])
         # remappings=[('image_in', 'image_raw')]
+#        ))
+    ld.add_action(Node(
+        package='rpi_temprature', executable='rpi_get_temprature', output='screen',
         ))
+
+
 
     return ld
